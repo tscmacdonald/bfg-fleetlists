@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% assign redirects = site.pages | concat: site.army_lists %}{% for r in redirects %}{% if r.pdf %}RedirectMatch /pdfs/{{ r.pdf }}.pdf /pdfs/{{ r.pdf }}-.pdf
+{% endif %}{% endfor %}

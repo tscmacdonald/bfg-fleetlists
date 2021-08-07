@@ -1,0 +1,9 @@
+{% assign weapon = site.data.weapons[include.w.id] %}
+<div class="weapon {{ unit.classes | join: ' ' }}">{% for m in weapon.modes %}
+  <div class="weapon-line">
+    {{ weapon | weapon_name: w, m }}
+    <span class="range">{{ m.range }}</span> 
+    <span class="firepower">{{ m.firepower }}</span>
+    <span class="firearc">{{ m.firearc }}</span> 
+  </div>{% endfor %}
+</div>

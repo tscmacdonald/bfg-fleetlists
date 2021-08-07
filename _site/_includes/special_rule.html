@@ -1,0 +1,7 @@
+{% assign special_rule = site.data.special_rules[include.id] %}
+<div class="special-rule {{ special_rule.classes | join: ' ' }}">
+  {% h3 special_rule.name #include.id %}
+
+  <div>
+{{ special_rule.content | markdownify }}  </div>
+</div>

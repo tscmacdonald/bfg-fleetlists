@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% include army_list.html army_list=page %}
+
+{% for f in army_list.forces %}{% assign force = site.data.forces[f] %}
+  {% include force.html force=force %}
+{% endfor %}

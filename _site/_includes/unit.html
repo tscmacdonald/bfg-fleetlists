@@ -1,0 +1,30 @@
+{% assign unit = site.data.units[include.id] %}
+<div class="unit {{ unit.classes | join: ' ' }}">
+  <div class="stats">
+    <span class="name">{{ unit.name }}</span>
+    <span class="type">{{ unit.type }}</span>
+    <span class="speed">{{ unit.speed }}</span>
+    <span class="turns">{{ unit.turns }}</span>
+    <span class="shields">{{ unit.shields }}</span>
+    <span class="armour">{{ unit.armour }}</span>
+    <span class="turrets">{{ unit.turrets }}</span>
+  </div>
+
+  <div class="weapons">{% for w in unit.weapons %}{% include weapon.html w=w %}{% else %}
+    <div class="weapon">
+      <div class="weapon-line">
+        <span class="name">-</span>
+        <span class="range"></span>
+        <span class="firepower"></span>
+        <span class="firearc"></span>
+      </div>
+    </div>{% endfor %}
+  </div>
+
+  <div class="notes">{% if unit.special_rules %}
+    <ul class="special-rules">{% for sr in unit.special_rules %}
+      <li>{{ site.data.special_rules[sr].name }}</li>{% endfor %}
+    </ul>
+{% endif %}{% if unit.notes %}
+    {{ unit.notes | markdownify }}{% endif %}  </div>
+</div>

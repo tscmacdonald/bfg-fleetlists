@@ -1,0 +1,8 @@
+<section id="{{ force.basename | replace: '-', '_' }}_force" class="force {{ force.classes | join: ' ' }}">
+  {% capture heading %}{{ force.name }} Forces{% endcapture %}{% h2 heading %}
+
+  <div class="datasheet">{% for u in force.units %}
+{% include unit.html id=u %}{% endfor %}
+  </div>{% for sr in force.special_rules %}
+{% include_special_rule id=sr %}{% endfor %}
+</section>
