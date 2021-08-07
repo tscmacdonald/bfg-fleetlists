@@ -1,11 +1,11 @@
-# tp.net-armageddon.org
+# bfg-fleetlists
 
-The [Net Epic Armageddon Tournament Pack website](http://tp.net-armageddon.org/), powered by Jekyll.
+Fleetlists for BFG, using the code written for the [Net Epic Armageddon Tournament Pack website](http://tp.net-armageddon.org/), powered by Jekyll.
 
 ## The TL;DR Start
 
-    $ git clone git@github.com:dsusco/tp.net-armageddon.org.git
-    $ cd tp.net-armageddon.org/
+    $ git clone git@github.com:tscmacdonald/bfg-fleetlists.git
+    $ cd bfg-fleetlists/
     $ bundle install
     $ jekyll serve -l
 
