@@ -1,5 +1,5 @@
 ---
-name: Mars
+name: Armageddon
 type: Cruiser/8
 speed: 20cm
 turns: 45°
@@ -9,18 +9,18 @@ turrets: 2
 
 weapons:
   -
-    id: imp-Pbays-2
-  -
-    id: imp-Sbays-2
-  -
     id: Pbattery-45-6
   -
     id: Sbattery-45-6
   -
+    id: Plance-45-2
+  -
+    id: Slance-45-2
+  -
     id: dorsal-lance-60-2
   -
-    id: prow-nova-cannon
+    id: prow-torps-6
 notes:
   |
-    May upgrade from 2 to 3 turrets for +10 pts. May gain a permanent right-column gunnery shift for +15 pts.
+    May replace prow torpedoes with a nova cannon for +20 pts OR may add a power ram for +5 pts.
 ---
