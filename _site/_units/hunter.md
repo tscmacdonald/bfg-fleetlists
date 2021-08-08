@@ -1,10 +1,10 @@
 ---
-name: Cobra
+name: Hunter
 type: Escort/1
-speed: 30cm
+speed: 35cm
 turns: 90°
 shields: 1
-armour: 4+
+armour: 5+
 turrets: 1
 
 weapons:
@@ -12,7 +12,8 @@ weapons:
     id: prow-torps-2
   -
     id: prow-LFRbattery-30-1
-notes:
-  |
-    May exchange weapon battery for +2 Enemy Contacts bonus when taking orders.
+
+special_rules:
+  - space-marine-leadership
+  - space-marine-boarding
 ---

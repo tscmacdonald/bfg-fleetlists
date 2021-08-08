@@ -2,12 +2,12 @@
 name: Stbd launch bays
 modes:
   -
-    range: Furies (30cm)
+    range: Swiftdeaths (30cm)
     firepower: 4
   -
     boolean: or
-    range: Starhawks (20cm)
+    range: Doomfires (20cm)
   -
     boolean: or
-    range: (Sharks (30cm))
+    range: Dreadclaws (30cm)
 ---

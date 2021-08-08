@@ -1,12 +1,10 @@
 ---
 name: Eldar Holofields
 ---
-Against attacks that use the Gunnery table, the holofields cause one column shift to the right, in addition to any
-other column shifts for range or Blast markers. Against any other form of attack (lances, torpedoes, etc), roll to
-hit an Eldar ship as normal, but the Eldar player may then make a saving roll for his holofields.
+Against attacks that use the Gunnery table, the holofields cause one column shift to the right, in addition to any other column shifts for range or Blast markers. Against any other form of attack (lances, torpedoes, etc), roll to hit an Eldar ship as normal, but the Eldar player may then make a saving roll for his holofields.
 
 |D6 | RESULT|
---- | ---  
+--- | ---
 |1|Hit! Score a hit on the Eldar ship.|
 |2+|Missed! Place a Blast marker in contact with the ship.|
 
