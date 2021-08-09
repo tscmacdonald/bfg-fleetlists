@@ -1,16 +1,16 @@
 ---
 order: 1
-title: Imperial Navy – Armageddon Sector
-name: Armageddon Sector
+title: Imperial Navy – Bakka Sector
+name: Bakka Sector
 introduction:
   |
     <blockquote>
       <p>Put a quote here.</p>
 
-      <footer class="text-right"><cite>idk, Yarrick?</cite></footer>
+      <footer class="text-right"><cite>idk?</cite></footer>
     </blockquote>
 forces:
-  - armageddon-fleet
+  - bakka-sector
   
 using_the_army_list:
   |
@@ -26,10 +26,11 @@ using_the_army_list:
     : The points value of the formation.
 special_rules_text:
   |
-    Space Marine vessels use the  _Space Marine Leadership_ and _Space Marine Boarding Actions_ rules (see [_Space Marine Leadership_](#space-marine-leadership), [_Space Marine Boarding Actions_](#space-marine-boarding)).
+    Battlefleet Bakka uses the [_Bakka Starship Defences_](#bakka-defences) special rules. Bakka fleets may incorporate Adeptus Mechanicus vessels according to the [_Adeptus Mechanicus Allies_](#bakka-admech-allies) rules.
 special_rules:
-  - space-marine-leadership
-  - space-marine-boarding
+  - bakka-defences
+  - bakka-admech-allies
+  
   
 ---
 <p>The Imperial Navy have an attack rating of 2.</p>
@@ -44,7 +45,7 @@ special_rules:
     </colgroup>
     <tbody>
 	<tr>
-	 <th colspan="3">You may include a single commander in your fleet, who must be assigned to a ship and improves its Leadership to the value shown. If the fleet is worth over 750 points a commander must be included to lead it.</th>
+	 <th colspan="3">You may include a single Admiral in your fleet, who must be assigned to a ship and improves its Leadership to the value shown. If the fleet is worth over 750 points an Admiral must be included to lead it.</th>
 	 </tr>
       <tr>
         <th>Type</th>
@@ -53,39 +54,39 @@ special_rules:
       </tr>
       <tr>
         <td>Fleet-Admiral (Ld 8)</td>
-		<td>50</td><td>Must be assigned to an Imperial Navy vessel.</td>
+		<td>50</td><td></td>
       </tr>
 	  <tr>
 		<td>Admiral (Ld 9)</td>
-		<td>100</td><td>Must be assigned to an Imperial Navy vessel.</td>
+		<td>100</td><td>.</td>
 		</tr>
 	  <tr>
 	    <td>Solar Admiral (Ld 10)</td>
-		<td>150</td><td>Must be assigned to an Imperial Navy vessel.</td>
+		<td>150</td><td></td>
 		</tr>
-			  <tr>
-	    <td>Master of the Fleet (Ld 10)</td>
-		<td>50</td><td>Must be assigned to a Battle Barge.</td>
+		<tr>
+	    <td>Lord Admiral Rath (Ld 10)</td>
+		<td>200</td><td>Allows a single Emperor battleship to be fielded, which must be Lord Admiral Rath's flagship.</td>
 		</tr>
 	  <tr>
-        <th colspan="3">Commanders get one Fleet Commander re-roll included in their points cost. If you want more you'll have to pay for them. The cost depends on whether the fleet is commanded by an Admiral or a Master of the Fleet.</th>
+        <th colspan="3">Admirals get one Fleet Commander re-roll included in their points cost, and Lord Admiral Rath has two. Additional rerolls may be purchased for any Fleet Commander at the costs below.</th>
       </tr>
 	  <tr>
         <th>Type</th>
-        <th>Cost (Admiral)</th>
-		<th>Cost (Master of the Fleet)</th>
+        <th>Cost</th>
+		<th>Notes</th>
       </tr>
       <tr>
         <td>One extra reroll</td>
-        <td>25</td><td>25</td>
+        <td>25</td><td></td>
       </tr>
       <tr>
         <td>Two extra rerolls</td>
-        <td>75</td><td>50</td>
+        <td>75</td><td></td>
       </tr>
       <tr>
         <td>Three extra rerolls</td>
-        <td>150</td><td>75</td>
+        <td>150</td><td></td>
       </tr>
     </tbody>
   </table>
@@ -108,30 +109,32 @@ special_rules:
         <th>Cost</th>
 		<th>Options</th>
       </tr>
-	<tr>
-        <td>Apocalypse class battleship</td>
-        <td>365 pts</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Emperor class battleship</td>
+	    <tr>
+        <td>0–1 Emperor class battleship</td>
         <td>365 pts</td>
         <td><ul>
+		<li>May only be taken if Lord Admiral Rath is Fleet Commander</li>
 		<li>May carry Shark assault boats for +5 pts</li>
 		</ul></td>
       </tr>
+	<tr>
+        <td>Retribution class battleship</td>
+        <td>345 pts</td>
+        <td>May add power ram for +5 pts.</td>
+      </tr>
+
         <tr>
-        <td>Oberon class battleship</td>
-        <td>335 pts</td>
+        <td>Victory class battleship</td>
+        <td>345 pts</td>
 		<td><ul>
-		<li>May add a Power Ram for +5 pts</li>
+		<li>May replace prow nova cannon for S9 prow torpedoes for -10 pts, and if doing so may add power ram for +5 pts.</li>
 		</ul></td>
       </tr>
-	  <tr>
-        <td>Space Marine battle barge</td>
-        <td>425 pts</td>
+        <tr>
+        <td>Vanquisher class battleship</td>
+        <td>300 pts</td>
 		<td><ul>
-		<li></li>
+		<li>May add a Power Ram for +5 pts</li>
 		</ul></td>
       </tr>
 	<tr>
@@ -142,6 +145,22 @@ special_rules:
         <th>Cost</th>
 		<th>Options</th>
       </tr>
+	        <tr>
+        <td>Dominion class battlecruiser</td>
+        <td>260 pts</td>
+        <td><ul>
+		<li>May add power ram for +5 pts.</li>
+		</ul></td>
+      </tr>
+	        <tr>
+        <td>Mercury class battlecruiser</td>
+        <td>255 pts</td>
+        <td><ul>
+		<li>May increase 45cm batteries to 60cm for +10 pts</li>
+		<li>May replace nova cannon with S6 torpedoes for -20 pts</li>
+		<li>If nova cannon has been replaced, may add power ram for +5 pts</li
+		</ul></td>
+      </tr>
 	<tr>
         <td>Armageddon class battlecruiser</td>
         <td>245 pts</td>
@@ -150,14 +169,7 @@ special_rules:
 		<li>OR may add a Power Ram for +5 pts</li>
 		</ul></td>
       </tr>
-      <tr>
-        <td>Mars class battlecruiser</td>
-        <td>270 pts</td>
-        <td><ul>
-		<li>May gain a permanent right-column gunnery shift for +15 pts</li>
-		<li>May upgrade to 3 turrets for +10 pts</li>
-		</ul></td>
-      </tr>
+
       	<tr>
     <th colspan="3">You may include 0–12 cruisers.</th>
 	</tr>
@@ -166,10 +178,12 @@ special_rules:
         <th>Cost</th>
 		<th>Options</th>
       </tr>
-	<tr>
-        <td>Dictator class cruiser</td>
-        <td>220 pts</td>
-        <td>May add a Power Ram for +5 pts</td>
+	  	  <tr>
+        <td>Dominator class cruiser</td>
+        <td>190 pts</td>
+        <td><ul>
+		<li>May replace 30cm batteries with 45cm FP6 batteries for -5 pts.</li>
+		</ul></td>
       </tr>
 	  <tr>
         <td>Tyrant class cruiser</td>
@@ -194,38 +208,28 @@ special_rules:
         <td>May add a Power Ram for +5 pts</td>
       </tr>
 	  
+	    <tr>
+        <td>Bakka Endeavour class light cruiser</td>
+        <td>110 pts</td>
+        <td><ul>
+		<li>May increase front armour to 6+ and reduce Turn to 45°</li>
+		<li>If front armour is increased, may add a Power Ram for +5 pts</li>
+		</ul></td>
+      </tr>
 	  <tr>
-        <td>Space Marine strike cruiser</td>
-        <td>145 pts</td>
+        <td>Bakka Endurance class light cruiser</td>
+        <td>110 pts</td>
+        <td><ul>
+		<li>May increase front armour to 6+ and reduce Turn to 45°</li>
+		<li>If front armour is increased, may add a Power Ram for +5 pts</li>
+		</ul></td>
+      </tr>
+	  <tr>
+        <td>Siluria class light cruiser</td>
+        <td>100 pts</td>
         <td></td>
       </tr>
-	  	  <tr>
-        <td>Endeavour class light cruiser</td>
-        <td>110 pts</td>
-        <td><ul>
-		<li>May increase front armour to 6+ and reduce Turn to 45°</li>
-		<li>If front armour is increased, may add a Power Ram for +5 pts</li>
-		</ul></td>
-      </tr>
-	  <tr>
-        <td>Endurance class light cruiser</td>
-        <td>110 pts</td>
-        <td><ul>
-		<li>May increase front armour to 6+ and reduce Turn to 45°</li>
-		<li>If front armour is increased, may add a Power Ram for +5 pts</li>
-		</ul></td>
-      </tr>
-	  <tr>
-        <td>Defiant class light cruiser</td>
-        <td>120 pts</td>
-        <td><ul>
-		<li>May increase front armour to 6+ and reduce Turn to 45°</li>
-		<li>If front armour is increased, may add a Power Ram for +5 pts</li>
-		</ul></td>
-      </tr>
-	  <tr>
-	   <td colspan="3">The Endurance and Defiant class light cruisers are rare variants of the Endeavour, and the combined number of Endurance and Defiant class vessels in the fleet may not exceed the number of Endeavour class light cruisers in the fleet.</td>
-	 </tr>
+
 	 </tbody>
 	</table>
 </div>
@@ -248,50 +252,50 @@ special_rules:
         <th>Options</th>
       </tr>
 	  <tr>
-	  <td>Firestorm class frigate</td>
-	  <td>40 pts</td>
-	  <td></td>
-	  </tr>
-	  <tr>
-	  <td>Falchion class frigate</td>
+	  <td>Havoc class frigate</td>
 	  <td>35 pts</td>
 	  <td></td>
 	  </tr>
 	  <tr>
-	  <td>Nova class frigate</td>
-	  <td>50 pts</td>
-	  <td></td>
-	  </tr>
-	  <tr>
-	  <td>Gladius class frigate</td>
-	  <td>45 pts</td>
-	  <td></td>
-	  </tr>
-	  <tr>
-	  <td>Hunter class destroyer</td>
-	  <td>40 pts</td>
-	  <td></td>
-	  </tr>	  
-	  <tr>
-	  <td>Rapid Strike Vessel (Firestorm)</td>
-	  <td>45 pts</td>
-	  <td>Uses Firestorm profile, but with Space Marine special rules.</td>
-	  </tr>
-	  <tr>
-	  <td>Rapid Strike Vessel (Sword)</td>
-	  <td>40 pts</td>
-	  <td>Uses Firestorm profile, but with Space Marine special rules.</td>
-	  </tr>
-	  <tr>
-	  <td>Rapid Strike Vessel (Cobra)</td>
+	  <td>Sword class frigate</td>
 	  <td>35 pts</td>
-	  <td><ul>
-	  <li>Uses Firestorm profile, but with Space Marine special rules.</li>
-	  <li>May exchange weapon battery for +2 Enemy Contacts bonus when taking orders.</li>
-	  </ul></td>
+	  <td></td>
 	  </tr>
+	  <tr>
+	  <td>Viper class frigate</td>
+	  <td>35 pts</td>
+	  <td></td>
+	  </tr>
+	
     </tbody>
   </table>
+</div>
+
+<div class="table-responsive">
+  <table class="army-list">
+    <caption>Reserves</caption>
+    <colgroup>
+      <col style="width:24em">
+      <col style="width:12em">
+      <col style="width:48em">
+    </colgroup>
+    <tbody>
+	<tr>
+    <td colspan="3">Ships from any Imperial fleet list may be used as reserves, with one reserve cruiser, battlecruiser or grand cruiser for every three Bakka cruisers in the fleet, one reserve battleship for every three Bakka battleships in the fleet, etc. One Rogue Trader cruiser and its attendant escorts may be taken for every 750 points in the fleet. Ships from the Bakka fleet list can be used as reserves by any other Imperial fleet list, along with their Bakka-specific refits. Reserve cruisers (not battlecruisers or grand cruisers) always count toward the twelve-cruiser fleet limit.
+	One cannot take as reserves the reserves of another fleet list. As such, ships such as the Jovian that are part of the reserve fleet of Battlefleet Bakka cannot be used as reserves of another fleet list.</td>
+	</tr>
+      <tr>
+        <th>Class</th>
+        <th>Cost</th>
+        <th>Options</th>
+      </tr>
+	  <tr>
+	  <td>Jovian class battlecruiser</td>
+	  <td>260 pts</td>
+	  <td></td>
+	  </tr>
+	  </tbody>
+	</table>
 </div>
 
 <div class="table-responsive">
@@ -304,7 +308,7 @@ special_rules:
     </colgroup>
     <tbody>
     <tr>
-    <td colspan="3">Any Imperial ship with launch bays may choose to have them launch any mix of Fury interceptors and Starhawk bombers. Emperor and Oberon class battleships may carry Shark assault boats at an additional cost of +5 points. Imperial Navy ships with torpedo tubes are armed with ordinary torpedoes. Space Marine ships are armed with ordinary torpedoes and boarding torpedoes.</td>
+    <td colspan="3">Any Imperial ship with launch bays may choose to have them launch any mix of Fury interceptors and Starhawk bomber, and may also take torpedo bombers for +10 pts per launch bay. An Emperor class battleship may carry Shark assault boats for +5 pts. Ships with torpedo tubes are armed with ordinary torpedoes.</td>
     </tr>
     </tbody>
   </table>

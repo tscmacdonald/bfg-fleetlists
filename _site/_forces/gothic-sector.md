@@ -1,5 +1,5 @@
 ---
-name: Imperial Navy
+name: Gothic Sector
 order: 1
 
 units:

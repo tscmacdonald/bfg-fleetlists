@@ -1,6 +1,6 @@
 ---
-name: Imperial Navy
-order: 1
+name: Armageddon Sector
+order: 3
 
 units:
   - firestorm

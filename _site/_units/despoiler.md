@@ -1,5 +1,5 @@
 ---
-name: Desolator
+name: Despoiler
 type: Battleship/12
 speed: 25cm
 turns: 45°
