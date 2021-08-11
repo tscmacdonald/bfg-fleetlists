@@ -27,4 +27,10 @@ units:
   - desolator
   - chaos-battle-barge
   - planet-killer
+
+special_rules:
+  - chaos-boarding-actions
+  - daemon-ships
+  - thunderhawk-gunships
+  - armageddon-gun
 ---

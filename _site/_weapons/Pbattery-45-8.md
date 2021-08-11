@@ -1,5 +1,5 @@
 ---
-name: Port weapons battery
+name: Port wpns battery
 modes:
   -
     range: 45cm

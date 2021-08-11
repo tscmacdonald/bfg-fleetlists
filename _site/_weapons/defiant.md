@@ -7,7 +7,7 @@ shields: 1
 armour: 5+
 turrets: 2
 
-weapons:
+wpns:
   -
     id: imp-Pbays-1
   -

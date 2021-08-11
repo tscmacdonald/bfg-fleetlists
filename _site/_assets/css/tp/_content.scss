@@ -427,7 +427,7 @@ aside.faq > div > h4 {
 
     > * {
       display: table-cell;
-      padding: 0 0.3em;
+      padding: 0 0.15em;
       text-align: center;
 
       &::before { display: block; }
@@ -470,12 +470,11 @@ aside.faq > div > h4 {
       text-align: center;
 
       &.name { text-align: left; }
-	  &.firearc { text-align: left; }
+	  &.firearc { text-align: center; }
       &.boolean { text-align: right; }
-      &.firepower {
-        text-align: left;
+      &.firepower { text-align: left; 
 
-        > :not(:last-child)::after { content: ', '; }
+        > :not(:last-child)::center { content: ', '; }
 
         .special-rules > li:last-child::after { content: none; }
       }

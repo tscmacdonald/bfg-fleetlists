@@ -16,8 +16,9 @@ units:
   - void-stalker
 
 special_rules:
+  - eldar-leadership
   - eldar-movement
-  - eldar-holofields
   - eldar-critical-hits
+  - eldar-holofields
   - eldar-weapons
 ---

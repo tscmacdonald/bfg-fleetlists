@@ -1,5 +1,5 @@
 ---
-name: Prow weapons battery
+name: Prow wpns battery
 modes:
   -
     range: 60cm

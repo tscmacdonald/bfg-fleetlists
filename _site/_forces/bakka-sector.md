@@ -26,4 +26,7 @@ units:
   
   - jovian
 
+special_rules:
+  - bakka-defences
+
 ---

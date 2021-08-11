@@ -21,5 +21,7 @@ units:
   - despoiler
   - desolator
   - chaos-battle-barge
-  
+
+special_rules:
+  - chaos-boarding-actions
 ---

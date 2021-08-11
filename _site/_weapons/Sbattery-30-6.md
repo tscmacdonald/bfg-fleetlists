@@ -1,5 +1,5 @@
 ---
-name: Stbd weapons battery
+name: Stbd wpns battery
 modes:
   -
     range: 30cm

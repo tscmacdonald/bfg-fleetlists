@@ -3,7 +3,7 @@ name: Shadow
 type: Cruiser/6
 speed: 10/20/25
 turns: Special
-shields: Holofields
+shields: Holo.
 armour: 4+
 turrets: 0
 

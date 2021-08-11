@@ -1,5 +1,5 @@
 ---
-name: Prow pulsar lance
+name: Prow pulsar
 modes:
   -
     range: 30cm

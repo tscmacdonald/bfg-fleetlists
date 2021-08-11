@@ -31,4 +31,7 @@ units:
   - oberon
   - space-marine-battle-barge
 
+special_rules:
+  - space-marine-leadership
+  - space-marine-boarding
 ---

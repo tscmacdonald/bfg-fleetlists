@@ -1,5 +1,5 @@
 ---
-name: Dorsal weapons battery
+name: Dorsal wpns battery
 modes:
   -
     range: 60cm
