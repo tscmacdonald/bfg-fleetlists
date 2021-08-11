@@ -1,5 +1,5 @@
-author: NetERC
-description: Tactical Wargame Network's fan-made army lists and frequently asked questions for Games Workshop's Epic Armageddon.
+author: BFG
+description: Compiled Fleetlists for Games Workshop's Battlefleet Gothic.
 scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
 stylesheets:
