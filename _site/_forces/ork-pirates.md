@@ -13,6 +13,5 @@ units:
   - kill-kroozer
   - terror-kroozer
 special_rules:
-  - ork-special-rules
   - ork-weapons
 ---

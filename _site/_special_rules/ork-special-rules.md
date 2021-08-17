@@ -9,3 +9,6 @@ All Ahead Full Special Orders
 
 Boarding
 : Orks they get a +1 bonus in boarding actions to represent their savagery. 
+
+Dakka Dakka
+: Ork capital ships can add +2 turrets to their ships for +20 points (this is not the same thing as saying “up to two turrets at +10 points each”). Ork escorts may add +1 turret for +5 points per escort unless a particular fleet lists adjusts this. If this option is taken, every escort in a given squadron must take the refit, not just individual escorts in a squadron.
