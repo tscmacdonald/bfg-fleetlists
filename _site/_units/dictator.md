@@ -9,9 +9,9 @@ turrets: 3
 
 weapons:
   -
-    id: Pbattery-30-12
+    id: Pbattery-30-6
   -
-    id: Sbattery-30-12
+    id: Sbattery-30-6
   -
     id: imp-Pbays-2
   -
