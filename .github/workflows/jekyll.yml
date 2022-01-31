@@ -24,7 +24,7 @@ jobs:
       env:
         JEKYLL_ENV: production
         JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
- - name: Deploy site
+     - name: Deploy site
       run: |
         cd _site
         git init
