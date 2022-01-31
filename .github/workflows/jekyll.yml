@@ -1,20 +1,36 @@
-name: Jekyll site CI
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+name: build
+on: push
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+    - name: Setup cache for Bundler
+      id: cache
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-bundler-${{ hashFiles('Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-bundler-
+    - name: Install dependencies
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        bundle install --path=vendor/bundle
+    - name: Build site
+      run: bundle exec jekyll build --profile --trace
+      env:
+        JEKYLL_ENV: production
+        JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ - name: Deploy site
+      run: |
+        cd _site
+        git init
+        git config user.name "tscmacdonald"
+        git config user.email "noreply@github.com"
+        git add --all
+        git commit --message "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
+        git remote add deploy https://${{ secrets.GITHUB_TOKEN }}@github.com/tscmacdonald/tscmacdonald.github.io.git >/dev/null 2>&1
+        git push --force deploy gh-pages >/dev/null 2>&1
