@@ -3,18 +3,18 @@ name: Armageddon Sector
 order: 3
 
 units:
-  - firestorm
-  - cobra
-  - sword
   - falchion
-  - nova
+  - firestorm
   - gladius
   - hunter
+  - nova
+  - RSVcobra
+  - RSVfirestorm
+  - RSVsword
 
-  
+  - defiant
   - endeavour
   - endurance
-  - defiant
 
   - dictator
   - gothic
@@ -22,12 +22,11 @@ units:
   - tyrant
   - strike-cruiser
 
-  
-  - mars
   - armageddon
+  - mars
 
-  - emperor
   - apocalypse
+  - emperor
   - oberon
   - space-marine-battle-barge
 

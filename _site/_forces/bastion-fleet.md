@@ -8,22 +8,22 @@ units:
   - sword
   
   - dauntless
+  - defiant
   - endeavour
   - endurance
-  - defiant
 
   - dictator
   - gothic
   - lunar
   - tyrant
   
-  - mars
   - armageddon
+  - mars
   - overlord
 
+  - avenger
   - exorcist
   - vengeance
-  - avenger
 
   - apocalypse
   - emperor

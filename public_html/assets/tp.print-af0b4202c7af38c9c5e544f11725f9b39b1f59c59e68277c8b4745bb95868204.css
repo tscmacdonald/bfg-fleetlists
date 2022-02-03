@@ -1,0 +1,1244 @@
+@charset "UTF-8";
+/* stylelint-disable order/properties-alphabetical-order */
+/* stylelint-enable */
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus,
+[type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus,
+a[href]:focus,
+select:focus,
+[tabindex]:focus {
+  outline: default; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+
+.sr-only-focusable {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+  .sr-only-focusable:active, .sr-only-focusable:focus {
+    clip: auto;
+    height: auto;
+    overflow: visible;
+    position: static;
+    white-space: normal;
+    width: auto; }
+
+body, div, hr,
+address, blockquote, h1, h2, h3, h4, h5, h6, p, pre,
+article, aside, figure, figcaption, footer, header, main, nav, section,
+dl, dt, dd, ol, ul, li,
+form, fieldset, legend, button, input, label, select, option, optgroup, textarea,
+table, caption, col, colgroup, thead, tbody, tfoot, tr, th, td,
+a, abbr, cite, q, span, sub, sup,
+b, del, i, ins, mark, s, u,
+code, dfn, em, kbd, samp, strong, var,
+img, map, area,
+br, wbr {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: baseline; }
+  body, body:before, body:after, div, div:before, div:after, hr, hr:before, hr:after,
+  address,
+  address:before,
+  address:after, blockquote, blockquote:before, blockquote:after, h1, h1:before, h1:after, h2, h2:before, h2:after, h3, h3:before, h3:after, h4, h4:before, h4:after, h5, h5:before, h5:after, h6, h6:before, h6:after, p, p:before, p:after, pre, pre:before, pre:after,
+  article,
+  article:before,
+  article:after, aside, aside:before, aside:after, figure, figure:before, figure:after, figcaption, figcaption:before, figcaption:after, footer, footer:before, footer:after, header, header:before, header:after, main, main:before, main:after, nav, nav:before, nav:after, section, section:before, section:after,
+  dl,
+  dl:before,
+  dl:after, dt, dt:before, dt:after, dd, dd:before, dd:after, ol, ol:before, ol:after, ul, ul:before, ul:after, li, li:before, li:after,
+  form,
+  form:before,
+  form:after, fieldset, fieldset:before, fieldset:after, legend, legend:before, legend:after, button, button:before, button:after, input, input:before, input:after, label, label:before, label:after, select, select:before, select:after, option, option:before, option:after, optgroup, optgroup:before, optgroup:after, textarea, textarea:before, textarea:after,
+  table,
+  table:before,
+  table:after, caption, caption:before, caption:after, col, col:before, col:after, colgroup, colgroup:before, colgroup:after, thead, thead:before, thead:after, tbody, tbody:before, tbody:after, tfoot, tfoot:before, tfoot:after, tr, tr:before, tr:after, th, th:before, th:after, td, td:before, td:after,
+  a,
+  a:before,
+  a:after, abbr, abbr:before, abbr:after, cite, cite:before, cite:after, q, q:before, q:after, span, span:before, span:after, sub, sub:before, sub:after, sup, sup:before, sup:after,
+  b,
+  b:before,
+  b:after, del, del:before, del:after, i, i:before, i:after, ins, ins:before, ins:after, mark, mark:before, mark:after, s, s:before, s:after, u, u:before, u:after,
+  code,
+  code:before,
+  code:after, dfn, dfn:before, dfn:after, em, em:before, em:after, kbd, kbd:before, kbd:after, samp, samp:before, samp:after, strong, strong:before, strong:after, var, var:before, var:after,
+  img,
+  img:before,
+  img:after, map, map:before, map:after, area, area:before, area:after,
+  br,
+  br:before,
+  br:after, wbr, wbr:before, wbr:after {
+    box-sizing: border-box; }
+
+body {
+  font: 10pt/1 sans-serif; }
+
+article, aside, figure, figcaption, footer, header, main, nav, section {
+  display: block; }
+
+b, dt, h1, h2, h3, h4, h5, h6, strong, th {
+  font-weight: bold; }
+
+blockquote {
+  font-style: italic; }
+  blockquote:before, blockquote:after {
+    content: none; }
+  blockquote > p:first-child:before {
+    content: '“'; }
+  blockquote > p:last-of-type:after {
+    content: '”'; }
+
+cite, dfn, em, i {
+  font-style: italic; }
+
+code, kdb, samp, var {
+  font-family: monospace; }
+
+del {
+  text-decoration: line-through; }
+
+ins, u {
+  text-decoration: underline; }
+
+ol {
+  list-style: decimal; }
+
+q:before {
+  content: '“'; }
+q:after {
+  content: '”'; }
+q q:before {
+  content: '‘'; }
+q q:after {
+  content: '’'; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: sub; }
+
+sup {
+  vertical-align: super; }
+
+table {
+  border-spacing: 0; }
+
+textarea {
+  overflow: auto; }
+
+ul {
+  list-style-type: disc; }
+
+.sr-only, .sr-only-focusable {
+  display: none; }
+
+.two-column {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  page-break-before: always; }
+
+/* generated content */
+title {
+  string-set: title content(), mtime attr(data-mtime); }
+
+main h1[id] {
+  string-set: section content(); }
+
+/* pages */
+@page {
+  font: 10pt Garamond, serif;
+  line-height: 1.2;
+  margin: 1.75cm 1cm 1.25cm;
+  size: 210mm 11in;
+  @top-left {
+    padding: 0 0 0.5cm;
+    vertical-align: bottom; }
+  @top-center {
+    content: string(title) " – " string(mtime);
+    padding: 0 0 0.5cm;
+    vertical-align: bottom; }
+  @top-right {
+    padding: 0 0 0.5cm;
+    vertical-align: bottom; }
+  @bottom-left {
+    padding: 0.125cm 0 0;
+    vertical-align: top; }
+  @bottom-right {
+    padding: 0.125cm 0 0;
+    vertical-align: top; }
+  @footnotes {
+    border-top: 1pt solid #999;
+    margin: 5.5pt 0 0;
+    padding: 5.5pt 0 0; } }
+@page :blank {
+  @top-left {
+    content: none; }
+  @top-center {
+    content: none; }
+  @top-right {
+    content: none; }
+  @bottom-left {
+    content: none; }
+  @bottom-right {
+    content: none; } }
+@page :left {
+  margin: 1.75cm 1.4cm 1.25cm 1cm;
+  @top-left {
+    content: string(section); }
+  @bottom-left {
+    content: counter(page); } }
+@page :right {
+  margin: 1.75cm 1cm 1.25cm 1.4cm;
+  @top-right {
+    content: string(section); }
+  @bottom-right {
+    content: counter(page); } }
+@page cover, copyright, datasheet, reference-sheet {
+  @top-left {
+    content: none; }
+  @top-right {
+    content: none; }
+  @bottom-left {
+    content: none; }
+  @bottom-right {
+    content: none; } }
+@page cover, datasheet, reference-sheet {
+  margin: 0.75cm 1cm;
+  @top-center {
+    content: none; } }
+@page cover {
+  background: center/190mm no-repeat url(../tournament-pack/images/cover.png); }
+@page copyright {
+  margin-bottom: 1cm; }
+@page datasheet, reference-sheet {
+  border: 1pt solid #999;
+  padding: 6pt; }
+@page datasheet {
+  margin: 1cm 0.75cm;
+  size: 11in 210mm; }
+@page table-of-contents:left {
+  @top-left {
+    content: 'Table of Contents'; }
+  @bottom-left {
+    content: counter(page,lower-roman); } }
+@page table-of-contents:right {
+  @top-right {
+    content: 'Table of Contents'; }
+  @bottom-right {
+    content: counter(page,lower-roman); } }
+/* body */
+body {
+  font: 10pt Garamond, serif;
+  line-height: 1.2; }
+
+/* sections */
+#cover {
+  page: cover; }
+  #cover #title {
+    font: 32pt/1.125 Impact, sans-serif;
+    margin: 168pt 0 0; }
+  #cover #mtime {
+    font: 24pt/1.5 Impact, sans-serif;
+    margin: 0 0 252pt; }
+  #cover a {
+    font-size: 12pt;
+    line-height: 2; }
+  #cover > div {
+    text-align: center; }
+
+#copyright {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  page-break-before: always;
+  page: copyright; }
+
+#nav {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  page-break-before: always;
+  page: table-of-contents; }
+  #nav > .container {
+    display: none; }
+
+#nav_menu {
+  list-style: none;
+  padding-left: 0; }
+  #nav_menu a {
+    display: block;
+    content: content(text) leader(".") target-counter(attr(href), page); }
+    #nav_menu a.h2 {
+      margin-left: 1em; }
+    #nav_menu a.h3 {
+      margin-left: 2em; }
+  #nav_menu span {
+    display: none; }
+
+#reference_sheet {
+  display: block;
+  page: reference-sheet; }
+  #reference_sheet #epic-armageddon-reference-sheet {
+    font-size: 14pt;
+    line-height: 1.7142857143;
+    text-align: center;
+    text-transform: uppercase; }
+  #reference_sheet dd {
+    margin: 0; }
+
+.force {
+  page-break-before: right;
+  page: datasheet; }
+  .force > h2 {
+    margin-bottom: 3pt;
+    text-align: center; }
+  .force aside.faq > div {
+    margin-left: 1.5em; }
+  .force > .special-rule {
+    margin-bottom: 3pt; }
+
+.army-list {
+  page-break-before: right; }
+  .army-list > h3.page-break {
+    font-size: 12pt;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase; }
+    .army-list > h3.page-break, .army-list > h3.page-break + p {
+      margin-bottom: 3pt; }
+
+/* utility */
+.column-break {
+  column-break-before: always; }
+
+.page-break {
+  page-break-before: always; }
+
+.page-break-avoid {
+  page-break-before: avoid; }
+
+.page-break-left {
+  page-break-before: left; }
+
+.page-break-right {
+  page-break-before: right; }
+
+/* FAQ page */
+body[id='/faq/'] {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  page-break-before: always; }
+  body[id='/faq/'] .faq > h2 {
+    font-size: 10pt;
+    line-height: 1.2;
+    column-break-before: auto;
+    margin: 0;
+    text-transform: none; }
+  body[id='/faq/'] .faq > dl > dt {
+    font-weight: normal;
+    float: none; }
+    body[id='/faq/'] .faq > dl > dt::before {
+      content: 'Q: ';
+      margin-left: -1.25em;
+      position: absolute; }
+    body[id='/faq/'] .faq > dl > dt::after {
+      content: none; }
+    body[id='/faq/'] .faq > dl > dt + dd::before {
+      content: 'A: ';
+      margin-left: -1.25em;
+      position: absolute; }
+
+/* typography */
+h1, h2, h3, h4 {
+  bookmark-label: none; }
+  h1[id], h2[id], h3[id], h4[id] {
+    bookmark-label: content(); }
+  .default-layout h1[id], .default-layout h2[id], .default-layout h3[id], .default-layout h4[id] {
+    bookmark-label: attr(data-heading) " " content(); }
+
+h1 {
+  font-size: 16pt;
+  line-height: 1.5;
+  page-break-before: right;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 12pt;
+  line-height: 1;
+  column-break-before: always;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 10pt;
+  line-height: 1.2; }
+
+h4 {
+  font-size: 10pt;
+  line-height: 1.2; }
+
+.show-heading-numbers [data-heading]::before {
+  content: attr(data-heading) " "; }
+
+p, blockquote, figcaption, .text {
+  font-size: 10pt;
+  line-height: 1.2;
+  margin-bottom: 12pt; }
+
+blockquote footer {
+  text-align: right; }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 12pt; }
+
+/* lists */
+dl, ol, ul {
+  font-size: 10pt;
+  line-height: 1.2;
+  margin-bottom: 12pt; }
+  dl.list-upper-roman, ol.list-upper-roman, ul.list-upper-roman {
+    counter-reset: list-upper-roman;
+    list-style-type: none;
+    padding: 0; }
+    dl.list-upper-roman > li::before,
+    dl.list-upper-roman > dt::before, ol.list-upper-roman > li::before,
+    ol.list-upper-roman > dt::before, ul.list-upper-roman > li::before,
+    ul.list-upper-roman > dt::before {
+      counter-increment: list-upper-roman;
+      content: counter(list-upper-roman,upper-roman) " – ";
+      font-weight: bold; }
+
+dl {
+  margin: 0 0 12pt; }
+  dl > dt {
+    float: left; }
+    dl > dt::after {
+      content: ': ';
+      white-space: pre; }
+  dl > dd {
+    margin: 0 0 12pt; }
+    dl > dd:last-child {
+      margin-bottom: 0; }
+
+ol, ul {
+  padding-left: 1.5em; }
+
+/* tables */
+table {
+  font-size: 10pt;
+  line-height: 1.2;
+  border: 1pt solid #999;
+  border-top: 0;
+  margin: 0 0 10pt;
+  width: 100%; }
+  table > caption {
+    background: #ccc;
+    border: 1pt solid #999;
+    border-bottom: 0;
+    font-weight: bold;
+    text-align: left; }
+  table > thead,
+  table > tbody > tr > th,
+  table > tfoot {
+    font-style: italic; }
+  table > caption,
+  table th,
+  table td {
+    padding: 0 0.5em; }
+  table.borderless {
+    border: 0;
+    margin-bottom: 6pt; }
+    table.borderless > caption {
+      border: 0; }
+  table.army-list {
+    font-size: 8pt;
+    line-height: 1.5;
+    margin-bottom: 3pt;
+    page-break-before: avoid; }
+    table.army-list > caption {
+      background: none;
+      text-align: center;
+      text-transform: uppercase; }
+    table.army-list > thead {
+      border-bottom: 1px solid #999; }
+      table.army-list > thead > tr:last-child > th {
+        border-bottom: 1pt solid #999; }
+      table.army-list > thead > tr > th {
+        font-style: normal;
+        text-transform: uppercase; }
+      table.army-list > thead > tr > td {
+        text-align: center; }
+    table.army-list > tbody td.table-container {
+      padding-top: 3pt; }
+    table.army-list > tbody > tr.striped {
+      background: #eee; }
+    table.army-list ul {
+      font: inherit;
+      line-height: 1.25;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      table.army-list ul > li:not(:last-child) {
+        margin-bottom: 3pt; }
+
+/* classes */
+#abbreviations,
+.design-concept,
+.example-of-play,
+.short-story,
+.special-rule {
+  background: #eee;
+  border: 1pt solid #999;
+  margin-bottom: 10pt;
+  padding: 6pt 1em;
+  page-break-inside: avoid; }
+  #abbreviations header,
+  #abbreviations h1, #abbreviations .h1,
+  #abbreviations h2, #abbreviations .h2,
+  #abbreviations h3, #abbreviations .h3,
+  #abbreviations h4, #abbreviations .h4,
+  #abbreviations h5, #abbreviations .h5,
+  #abbreviations h6, #abbreviations .h6,
+  .design-concept header,
+  .design-concept h1,
+  .design-concept .h1,
+  .design-concept h2,
+  .design-concept .h2,
+  .design-concept h3,
+  .design-concept .h3,
+  .design-concept h4,
+  .design-concept .h4,
+  .design-concept h5,
+  .design-concept .h5,
+  .design-concept h6,
+  .design-concept .h6,
+  .example-of-play header,
+  .example-of-play h1,
+  .example-of-play .h1,
+  .example-of-play h2,
+  .example-of-play .h2,
+  .example-of-play h3,
+  .example-of-play .h3,
+  .example-of-play h4,
+  .example-of-play .h4,
+  .example-of-play h5,
+  .example-of-play .h5,
+  .example-of-play h6,
+  .example-of-play .h6,
+  .short-story header,
+  .short-story h1,
+  .short-story .h1,
+  .short-story h2,
+  .short-story .h2,
+  .short-story h3,
+  .short-story .h3,
+  .short-story h4,
+  .short-story .h4,
+  .short-story h5,
+  .short-story .h5,
+  .short-story h6,
+  .short-story .h6,
+  .special-rule header,
+  .special-rule h1,
+  .special-rule .h1,
+  .special-rule h2,
+  .special-rule .h2,
+  .special-rule h3,
+  .special-rule .h3,
+  .special-rule h4,
+  .special-rule .h4,
+  .special-rule h5,
+  .special-rule .h5,
+  .special-rule h6,
+  .special-rule .h6 {
+    font-size: 10pt;
+    line-height: 1.2;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 6pt;
+    text-align: center; }
+    #abbreviations header::before,
+    #abbreviations h1::before, #abbreviations .h1::before,
+    #abbreviations h2::before, #abbreviations .h2::before,
+    #abbreviations h3::before, #abbreviations .h3::before,
+    #abbreviations h4::before, #abbreviations .h4::before,
+    #abbreviations h5::before, #abbreviations .h5::before,
+    #abbreviations h6::before, #abbreviations .h6::before,
+    .design-concept header::before,
+    .design-concept h1::before,
+    .design-concept .h1::before,
+    .design-concept h2::before,
+    .design-concept .h2::before,
+    .design-concept h3::before,
+    .design-concept .h3::before,
+    .design-concept h4::before,
+    .design-concept .h4::before,
+    .design-concept h5::before,
+    .design-concept .h5::before,
+    .design-concept h6::before,
+    .design-concept .h6::before,
+    .example-of-play header::before,
+    .example-of-play h1::before,
+    .example-of-play .h1::before,
+    .example-of-play h2::before,
+    .example-of-play .h2::before,
+    .example-of-play h3::before,
+    .example-of-play .h3::before,
+    .example-of-play h4::before,
+    .example-of-play .h4::before,
+    .example-of-play h5::before,
+    .example-of-play .h5::before,
+    .example-of-play h6::before,
+    .example-of-play .h6::before,
+    .short-story header::before,
+    .short-story h1::before,
+    .short-story .h1::before,
+    .short-story h2::before,
+    .short-story .h2::before,
+    .short-story h3::before,
+    .short-story .h3::before,
+    .short-story h4::before,
+    .short-story .h4::before,
+    .short-story h5::before,
+    .short-story .h5::before,
+    .short-story h6::before,
+    .short-story .h6::before,
+    .special-rule header::before,
+    .special-rule h1::before,
+    .special-rule .h1::before,
+    .special-rule h2::before,
+    .special-rule .h2::before,
+    .special-rule h3::before,
+    .special-rule .h3::before,
+    .special-rule h4::before,
+    .special-rule .h4::before,
+    .special-rule h5::before,
+    .special-rule .h5::before,
+    .special-rule h6::before,
+    .special-rule .h6::before {
+      display: block;
+      font-style: normal;
+      text-transform: uppercase; }
+  #abbreviations > div > :last-child, #abbreviations > div > :last-child.table-responsive > table,
+  .design-concept > div > :last-child,
+  .design-concept > div > :last-child.table-responsive > table,
+  .example-of-play > div > :last-child,
+  .example-of-play > div > :last-child.table-responsive > table,
+  .short-story > div > :last-child,
+  .short-story > div > :last-child.table-responsive > table,
+  .special-rule > div > :last-child,
+  .special-rule > div > :last-child.table-responsive > table {
+    margin-bottom: 0; }
+
+.design-concept header::before {
+  content: 'Design Concept'; }
+
+.example-of-play header::before {
+  content: 'Example of Play'; }
+
+.short-story header {
+  font-style: normal;
+  text-transform: uppercase; }
+.short-story > div {
+  font-style: italic; }
+
+.special-rule h1::before, .special-rule .h1::before,
+.special-rule h2::before, .special-rule .h2::before,
+.special-rule h3::before, .special-rule .h3::before,
+.special-rule h4::before, .special-rule .h4::before,
+.special-rule h5::before, .special-rule .h5::before,
+.special-rule h6::before, .special-rule .h6::before {
+  content: 'Special Rule'; }
+
+aside.faq {
+  font-size: 8pt;
+  line-height: 1.5;
+  height: 0; }
+  aside.faq.float-footnote > div {
+    float: footnote; }
+  aside.faq > div {
+    float: prince-column-footnote;
+    page-break-inside: avoid; }
+    aside.faq > div::footnote-call {
+      content: none; }
+    aside.faq > div > h4,
+    aside.faq > div > div > dl {
+      font-style: normal;
+      margin-bottom: 0;
+      text-align: left; }
+      aside.faq > div > h4, aside.faq > div > h4 *,
+      aside.faq > div > div > dl,
+      aside.faq > div > div > dl * {
+        font: inherit;
+        line-height: inherit;
+        margin-bottom: 0; }
+    aside.faq > div > h4,
+    aside.faq > div > div > dl > dt,
+    aside.faq > div > div > dl > dt + dd {
+      position: relative; }
+      aside.faq > div > h4::before,
+      aside.faq > div > div > dl > dt::before,
+      aside.faq > div > div > dl > dt + dd::before {
+        content: attr(data-footnote);
+        left: -1.25em;
+        position: absolute;
+        text-align: right;
+        width: 1em; }
+    aside.faq > div > div > dl > dt {
+      font-weight: normal;
+      float: none; }
+      aside.faq > div > div > dl > dt::before {
+        content: 'Q: '; }
+      aside.faq > div > div > dl > dt::after {
+        content: none; }
+      aside.faq > div > div > dl > dt + dd::before {
+        content: 'A: '; }
+    aside.faq > div > div > dl > dd {
+      margin-bottom: 0; }
+
+[data-footnote]::after {
+  content: " " attr(data-footnote);
+  font-size: 6pt;
+  font-weight: normal;
+  line-height: 0;
+  vertical-align: super; }
+
+.datasheet {
+  display: table;
+  margin-bottom: 3pt;
+  width: 100%; }
+  .datasheet .unit {
+    display: table-row;
+    width: 91.875em; }
+    .datasheet .unit:first-child .stats > *::before,
+    .datasheet .unit:first-child .weapon:first-child > .weapon-line:first-child > *::before,
+    .datasheet .unit:first-child .notes::before {
+      background: #fff;
+      border-bottom: 1pt solid #999; }
+    .datasheet .unit:first-child .notes::before {
+      content: 'Notes';
+      display: block;
+      font-weight: bold;
+      font-style: normal;
+      margin: 0 -0.5em;
+      padding: 0 0.5em;
+      text-transform: uppercase; }
+    .datasheet .unit:nth-child(even) {
+      background: #fff; }
+    .datasheet .unit .stats, .datasheet .unit .weapons {
+      width: auto; }
+    .datasheet .unit .notes {
+      clear: none;
+      float: left;
+      font-style: italic; }
+      .datasheet .unit .notes > :first-child::before {
+        content: none; }
+  .datasheet .type {
+    width: 4em; }
+  .datasheet .speed, .datasheet .range {
+    width: 5em; }
+  .datasheet .turns {
+    width: 5em; }
+  .datasheet .shields, .datasheet .turrets {
+    width: 5em; }
+  .datasheet .armour {
+    width: 6em; }
+
+.unit {
+  font-size: 8pt;
+  line-height: 1.5;
+  background: #eee;
+  page-break-inside: avoid; }
+  .unit::after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .unit:first-child .stats > *::before,
+  .unit:first-child .weapon:first-child > .weapon-line:first-child > *::before {
+    display: block;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 -0.5em;
+    padding: 0 0.5em;
+    text-transform: uppercase; }
+  .unit:first-child .stats .name::before {
+    content: 'Name'; }
+  .unit:first-child .stats .type::before {
+    content: 'Type'; }
+  .unit:first-child .stats .speed::before {
+    content: 'Speed'; }
+  .unit:first-child .stats .turns::before {
+    content: 'Turns'; }
+  .unit:first-child .stats .shields::before {
+    content: 'Shields'; }
+  .unit:first-child .stats .armour::before {
+    content: 'Armour'; }
+  .unit:first-child .stats .turrets::before {
+    content: 'Turrets'; }
+  .unit:first-child .weapon:first-child > .weapon-line:first-child .name::before {
+    content: 'Weapons'; }
+  .unit:first-child .weapon:first-child > .weapon-line:first-child .range::before {
+    content: 'Range'; }
+  .unit:first-child .weapon:first-child > .weapon-line:first-child .firepower::before {
+    content: 'FP/STR'; }
+  .unit:first-child .weapon:first-child > .weapon-line:first-child .firearc::before {
+    content: 'Arc'; }
+  .unit .stats,
+  .unit .weapons {
+    display: table;
+    float: left;
+    width: 49.999%; }
+  .unit .stats > *,
+  .unit .weapon-line > * {
+    display: table-cell;
+    padding: 0 0.5em;
+    text-align: center; }
+  .unit .weapon {
+    display: table-row-group; }
+  .unit .weapon-line {
+    display: table-row; }
+  .unit .notes {
+    padding: 0 0.5em; }
+    .unit .notes > .special-rules {
+      font-style: italic; }
+      .unit .notes > .special-rules > li:last-child::after {
+        content: '.'; }
+    .unit .notes > :first-child::before {
+      content: 'Notes: ';
+      font-style: normal;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .unit .notes * {
+      display: inline; }
+  .unit .special-rules {
+    padding: 0; }
+    .unit .special-rules, .unit .special-rules > li {
+      display: inline; }
+    .unit .special-rules > li::after {
+      content: ', '; }
+    .unit .special-rules > li:last-child::after {
+      content: none; }
+  .unit .name, .unit .firepower {
+    text-align: left; }
+  .unit .firepower > :first-child:not(:last-child)::after {
+    content: ', '; }
+  .unit .name.boolean {
+    text-align: right; }
+  .unit * {
+    font: inherit;
+    line-height: inherit;
+    margin-bottom: 0; }
+
+/* IDs */
+#examples_of_formations figcaption {
+  background: #000;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  max-width: 351px;
+  text-align: center; }
+#examples_of_formations figcaption, #examples_of_formations img {
+  border: 1pt solid #999;
+  margin: 0 auto; }
+#examples_of_formations img {
+  border-top-width: 0;
+  display: block; }
+
+#example_initiatve_values,
+#needing_7_to_hit {
+  border: 0;
+  margin: 0 auto 12pt;
+  width: auto; }
+  #example_initiatve_values > thead,
+  #needing_7_to_hit > thead {
+    font-style: normal; }
+
+#examples_of_terrain figure {
+  display: table;
+  margin: 0 0 12pt; }
+  #examples_of_terrain figure + figure {
+    margin: 0; }
+#examples_of_terrain img,
+#examples_of_terrain figcaption {
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle; }
+#examples_of_terrain #hull_down_example {
+  margin-right: 1em;
+  width: 408px; }
+#examples_of_terrain #partial_cover_example {
+  margin-left: 1em;
+  width: 408px; }
+
+#weapon_fire_arcs {
+  border: 1pt solid #999;
+  float: right;
+  margin: 0; }
+  #weapon_fire_arcs ~ p {
+    margin-right: 395px;
+    padding-right: 1em; }
+
+.barrage-table td, .barrage-table th {
+  text-align: center; }
+
+#abbreviations::after {
+  display: block;
+  clear: both;
+  content: ''; }
+#abbreviations > div > dl {
+  margin-bottom: 0; }
+  #abbreviations > div > dl > dd {
+    margin: 0; }
+
+/* 65.874 */
+#space_marine_force .datasheet .name {
+  width: 11em; }
+#space_marine_force .datasheet .weapon .name, #space_marine_force .datasheet .weapon .boolean {
+  width: 11em; }
+#space_marine_force .datasheet .firepower {
+  width: 14em; }
+#space_marine_force .datasheet .notes {
+  width: 29.874em; }
+
+#imperial_guard_force .datasheet .name {
+  width: 11em; }
+#imperial_guard_force .datasheet .weapon .name, #imperial_guard_force .datasheet .weapon .boolean {
+  width: 13em; }
+#imperial_guard_force .datasheet .firepower {
+  width: 14em; }
+#imperial_guard_force .datasheet .notes {
+  width: 27.874em; }
+
+#imperial_navy_force .datasheet .name {
+  width: 11em; }
+#imperial_navy_force .datasheet .weapon .name, #imperial_navy_force .datasheet .weapon .boolean {
+  width: 10em; }
+#imperial_navy_force .datasheet .firepower {
+  width: 12em; }
+#imperial_navy_force .datasheet .notes {
+  width: 32.874em; }
+
+#titan_legion_force .datasheet .name {
+  width: 10em; }
+#titan_legion_force .datasheet .weapon .name, #titan_legion_force .datasheet .weapon .boolean {
+  width: 12em; }
+#titan_legion_force .datasheet .firepower {
+  width: 11em; }
+#titan_legion_force .datasheet .notes {
+  width: 32.874em; }
+
+#ork_force .datasheet .name {
+  width: 8em; }
+#ork_force .datasheet .weapon .name, #ork_force .datasheet .weapon .boolean {
+  width: 12em; }
+#ork_force .datasheet .firepower {
+  width: 15em; }
+#ork_force .datasheet .notes {
+  width: 30.874em; }
+
+#eldar_force .datasheet .name {
+  width: 12em; }
+#eldar_force .datasheet .weapon .name, #eldar_force .datasheet .weapon .boolean {
+  width: 14em; }
+#eldar_force .datasheet .firepower {
+  width: 15em; }
+#eldar_force .datasheet .notes {
+  width: 24.874em; }
+
+#baran_siegemaster_force .datasheet .name {
+  width: 13em; }
+#baran_siegemaster_force .datasheet .weapon .name, #baran_siegemaster_force .datasheet .weapon .boolean {
+  width: 11em; }
+#baran_siegemaster_force .datasheet .firepower {
+  width: 14em; }
+#baran_siegemaster_force .datasheet .notes {
+  width: 27.874em; }
+
+#feral_ork_force .datasheet .name {
+  width: 7em; }
+#feral_ork_force .datasheet .weapon .name, #feral_ork_force .datasheet .weapon .boolean {
+  width: 9em; }
+#feral_ork_force .datasheet .firepower {
+  width: 15em; }
+#feral_ork_force .datasheet .notes {
+  width: 34.874em; }
+
+#white_scar_force .datasheet .name {
+  width: 11em; }
+#white_scar_force .datasheet .weapon .name, #white_scar_force .datasheet .weapon .boolean {
+  width: 11em; }
+#white_scar_force .datasheet .firepower {
+  width: 14em; }
+#white_scar_force .datasheet .notes {
+  width: 29.874em; }
+
+#speed_freek_force .datasheet .name {
+  width: 12em; }
+#speed_freek_force .datasheet .weapon .name, #speed_freek_force .datasheet .weapon .boolean {
+  width: 12em; }
+#speed_freek_force .datasheet .firepower {
+  width: 14em; }
+#speed_freek_force .datasheet .notes {
+  width: 27.874em; }
+
+#black_legion_force .datasheet .name {
+  width: 12em; }
+#black_legion_force .datasheet .weapon .name, #black_legion_force .datasheet .weapon .boolean {
+  width: 13em; }
+#black_legion_force .datasheet .firepower {
+  width: 15em; }
+#black_legion_force .datasheet .notes {
+  width: 25.874em; }
+
+#chaos_cultist_force .datasheet .name {
+  width: 11em; }
+#chaos_cultist_force .datasheet .weapon .name, #chaos_cultist_force .datasheet .weapon .boolean {
+  width: 10em; }
+#chaos_cultist_force .datasheet .firepower {
+  width: 15em; }
+#chaos_cultist_force .datasheet .notes {
+  width: 29.874em; }
+
+#dark_eldar_force .datasheet .name {
+  width: 8em; }
+#dark_eldar_force .datasheet .weapon .name, #dark_eldar_force .datasheet .weapon .boolean {
+  width: 14em; }
+#dark_eldar_force .datasheet .firepower {
+  width: 14em; }
+#dark_eldar_force .datasheet .notes {
+  width: 29.874em; }
+
+#minervan_tank_legion_force .datasheet .name {
+  width: 12em; }
+#minervan_tank_legion_force .datasheet .weapon .name, #minervan_tank_legion_force .datasheet .weapon .boolean {
+  width: 13em; }
+#minervan_tank_legion_force .datasheet .firepower {
+  width: 11em; }
+#minervan_tank_legion_force .datasheet .notes {
+  width: 29.874em; }
+
+#necron_force .datasheet .name {
+  width: 10em; }
+#necron_force .datasheet .weapon .name, #necron_force .datasheet .weapon .boolean {
+  width: 10em; }
+#necron_force .datasheet .firepower {
+  width: 15em; }
+#necron_force .datasheet .notes {
+  width: 29.874em; }
+
+#death_korps_of_krieg_force .datasheet .name {
+  width: 9em; }
+#death_korps_of_krieg_force .datasheet .weapon .name, #death_korps_of_krieg_force .datasheet .weapon .boolean {
+  width: 13em; }
+#death_korps_of_krieg_force .datasheet .firepower {
+  width: 14em; }
+#death_korps_of_krieg_force .datasheet .notes {
+  width: 29.874em; }
+
+#salamander_force .datasheet .name {
+  width: 10em; }
+#salamander_force .datasheet .weapon .name, #salamander_force .datasheet .weapon .boolean {
+  width: 11em; }
+#salamander_force .datasheet .firepower {
+  width: 14em; }
+#salamander_force .datasheet .notes {
+  width: 30.874em; }
+
+#scions_of_iron_force .datasheet .name {
+  width: 9em; }
+#scions_of_iron_force .datasheet .weapon .name, #scions_of_iron_force .datasheet .weapon .boolean {
+  width: 11em; }
+#scions_of_iron_force .datasheet .firepower {
+  width: 14em; }
+#scions_of_iron_force .datasheet .notes {
+  width: 31.874em; }
+
+#tau_force .datasheet .name {
+  width: 12em; }
+#tau_force .datasheet .weapon .name, #tau_force .datasheet .weapon .boolean {
+  width: 14em; }
+#tau_force .datasheet .firepower {
+  width: 12em; }
+#tau_force .datasheet .notes {
+  width: 27.874em; }
+
+#alaitoc_eldar_force .datasheet .name {
+  width: 12em; }
+#alaitoc_eldar_force .datasheet .weapon .name, #alaitoc_eldar_force .datasheet .weapon .boolean {
+  width: 16em; }
+#alaitoc_eldar_force .datasheet .firepower {
+  width: 15em; }
+#alaitoc_eldar_force .datasheet .notes {
+  width: 22.874em; }
+
+#tyranid_force .datasheet .name {
+  width: 8em; }
+#tyranid_force .datasheet .weapon .name, #tyranid_force .datasheet .weapon .boolean {
+  width: 12.5em; }
+#tyranid_force .datasheet .firepower {
+  width: 15em; }
+#tyranid_force .datasheet .notes {
+  width: 30.374em; }
+
+#adeptus_mechanicus_titan_legion_force .datasheet .name {
+  width: 12.5em; }
+#adeptus_mechanicus_titan_legion_force .datasheet .weapon .name, #adeptus_mechanicus_titan_legion_force .datasheet .weapon .boolean {
+  width: 13em; }
+#adeptus_mechanicus_titan_legion_force .datasheet .firepower {
+  width: 15em; }
+#adeptus_mechanicus_titan_legion_force .datasheet .notes {
+  width: 25.374em; }
+
+#knight_world_force .datasheet .name {
+  width: 8em; }
+#knight_world_force .datasheet .weapon .name, #knight_world_force .datasheet .weapon .boolean {
+  width: 12.5em; }
+#knight_world_force .datasheet .firepower {
+  width: 14em; }
+#knight_world_force .datasheet .notes {
+  width: 31.374em; }
+
+#iyanden_eldar_force .datasheet .name {
+  width: 12em; }
+#iyanden_eldar_force .datasheet .weapon .name, #iyanden_eldar_force .datasheet .weapon .boolean {
+  width: 16em; }
+#iyanden_eldar_force .datasheet .firepower {
+  width: 15em; }
+#iyanden_eldar_force .datasheet .notes {
+  width: 22.874em; }
+
+#imperial_fist_force .datasheet .name {
+  width: 11em; }
+#imperial_fist_force .datasheet .weapon .name, #imperial_fist_force .datasheet .weapon .boolean {
+  width: 12em; }
+#imperial_fist_force .datasheet .firepower {
+  width: 15em; }
+#imperial_fist_force .datasheet .notes {
+  width: 27.874em; }
+
+#space_wolf_force .datasheet .name {
+  width: 11em; }
+#space_wolf_force .datasheet .weapon .name, #space_wolf_force .datasheet .weapon .boolean {
+  width: 14em; }
+#space_wolf_force .datasheet .firepower {
+  width: 14em; }
+#space_wolf_force .datasheet .notes {
+  width: 26.874em; }
+
+#emperors_children_force .datasheet .name {
+  width: 12em; }
+#emperors_children_force .datasheet .weapon .name, #emperors_children_force .datasheet .weapon .boolean {
+  width: 13em; }
+#emperors_children_force .datasheet .firepower {
+  width: 15em; }
+#emperors_children_force .datasheet .notes {
+  width: 25.874em; }
+
+#saim_hann_eldar_force .datasheet .name {
+  width: 12em; }
+#saim_hann_eldar_force .datasheet .weapon .name, #saim_hann_eldar_force .datasheet .weapon .boolean {
+  width: 14em; }
+#saim_hann_eldar_force .datasheet .firepower {
+  width: 15em; }
+#saim_hann_eldar_force .datasheet .notes {
+  width: 24.874em; }
+
+#red_corsair_force .datasheet .name {
+  width: 13em; }
+#red_corsair_force .datasheet .weapon .name, #red_corsair_force .datasheet .weapon .boolean {
+  width: 10em; }
+#red_corsair_force .datasheet .firepower {
+  width: 14em; }
+#red_corsair_force .datasheet .notes {
+  width: 28.874em; }
+
+#raven_guard_force .datasheet .name {
+  width: 11em; }
+#raven_guard_force .datasheet .weapon .name, #raven_guard_force .datasheet .weapon .boolean {
+  width: 12em; }
+#raven_guard_force .datasheet .firepower {
+  width: 14em; }
+#raven_guard_force .datasheet .notes {
+  width: 28.874em; }
+
+#iron_warrior_force .datasheet .name {
+  width: 12em; }
+#iron_warrior_force .datasheet .weapon .name, #iron_warrior_force .datasheet .weapon .boolean {
+  width: 13em; }
+#iron_warrior_force .datasheet .firepower {
+  width: 15em; }
+#iron_warrior_force .datasheet .notes {
+  width: 25.874em; }
+
+#skitarii_legion_force .datasheet .name {
+  width: 12.5em; }
+#skitarii_legion_force .datasheet .weapon .name, #skitarii_legion_force .datasheet .weapon .boolean {
+  width: 13em; }
+#skitarii_legion_force .datasheet .firepower {
+  width: 15em; }
+#skitarii_legion_force .datasheet .notes {
+  width: 25.374em; }
+
+.pull-up {
+  float: top; }
+
+.pull-down {
+  float: bottom; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.one-half {
+  float: left;
+  width: 49%; }
+  .one-half + .one-half {
+    float: right; }
+
+.one-third, #abbreviations > div > dl {
+  float: left;
+  width: 32%; }
+  .one-third + .one-third, #abbreviations > div > dl + .one-third, #abbreviations > div > .one-third + dl, #abbreviations > div > dl + dl {
+    margin-left: 2%; }
+    .one-third + .one-third + .one-third, #abbreviations > div > dl + .one-third + .one-third, #abbreviations > div > .one-third + dl + .one-third, #abbreviations > div > dl + dl + .one-third, #abbreviations > div > .one-third + .one-third + dl, #abbreviations > div > dl + .one-third + dl, #abbreviations > div > .one-third + dl + dl, #abbreviations > div > dl + dl + dl {
+      float: right;
+      margin: 0; }

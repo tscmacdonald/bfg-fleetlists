@@ -5,7 +5,7 @@ speed: 20cm
 turns: 90°
 shields: 1
 armour: 5+
-turrets: 2
+turrets: 3
 
 weapons:
   -

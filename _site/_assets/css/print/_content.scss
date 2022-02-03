@@ -377,7 +377,7 @@ aside.faq {
 
     .stats {
       .name::before { content: 'Name'; }
-      .type::before { content: 'Type/Hits'; }
+      .type::before { content: 'Type'; }
       .speed::before { content: 'Speed'; }
       .turns::before { content: 'Turns'; }
       .shields::before { content: 'Shields'; }
@@ -388,8 +388,8 @@ aside.faq {
     .weapon:first-child > .weapon-line:first-child {
       .name::before { content: 'Weapons'; }
       .range::before { content: 'Range'; }
-      .firepower::before { content: 'Firepower/STR'; }
-      .firearc::before { content: 'Fire Arc'; }
+      .firepower::before { content: 'FP/STR'; }
+      .firearc::before { content: 'Arc'; }
     }
   }
 

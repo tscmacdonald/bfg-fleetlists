@@ -1,5 +1,5 @@
 ---
-name: Endurance
+name: Bakka Endurance
 type: Cruiser/6
 speed: 20cm
 turns: 90°

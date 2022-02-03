@@ -1,0 +1,1794 @@
+@charset "UTF-8";
+/* stylelint-disable order/properties-alphabetical-order */
+/* stylelint-enable */
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  /* @alternate */ -ms-text-size-adjust: 100%;
+  /* 2 */
+  /* @alternate */ -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+figcaption,
+figure {
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * Add the correct display in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  /* @alternate */ -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  /* @alternate */ -webkit-appearance: button;
+  /* 2 */ }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */ }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+/**
+ * Show the overflow in Edge.
+ */
+input {
+  overflow: visible; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  /* @alternate */ -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+  /**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */ }
+  [type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+    /* @alternate */ -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  /* @alternate */ -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  color: inherit;
+  /* 2 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/*
+ * Add the correct display in IE 9-.
+ */
+menu {
+  display: block; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus,
+[type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus,
+a[href]:focus,
+select:focus,
+[tabindex]:focus {
+  outline: default; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+
+.sr-only-focusable {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+  .sr-only-focusable:active, .sr-only-focusable:focus {
+    clip: auto;
+    height: auto;
+    overflow: visible;
+    position: static;
+    white-space: normal;
+    width: auto; }
+
+@-ms-viewport {
+  width: device-width; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: x-small;
+  /* @alternate */ -ms-overflow-style: scrollbar;
+  /* @alternate */ -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+[tabindex='-1']:focus {
+  outline: 0 !important; }
+
+::selection,
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left; }
+
+abbr[title] {
+  cursor: help;
+  text-decoration-skip-ink: none; }
+
+b,
+strong {
+  font-weight: bold; }
+
+summary {
+  cursor: pointer; }
+
+a[tabindex='-1']:not([href]), a[tabindex='-1']:not([href]):focus, a[tabindex='-1']:not([href]):hover,
+a:not([tabindex]):not([href]),
+a:not([tabindex]):not([href]):focus,
+a:not([tabindex]):not([href]):hover {
+  color: inherit;
+  text-decoration: none; }
+a[tabindex='-1']:not([href]):focus,
+a:not([tabindex]):not([href]):focus {
+  outline: 0; }
+
+pre {
+  overflow: auto;
+  /* @alternate */ -ms-overflow-style: scrollbar; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Courier New", monospace; }
+
+img {
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+svg {
+  overflow: hidden;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse; }
+
+th {
+  text-align: inherit; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 0; }
+
+legend {
+  display: block;
+  line-height: inherit;
+  width: 100%; }
+
+label {
+  display: inline-block; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+  button[disabled],
+  input[disabled],
+  optgroup[disabled],
+  select[disabled],
+  textarea[disabled] {
+    cursor: text; }
+
+button {
+  border-radius: 0; }
+  button:focus {
+    outline: 1px dotted;
+    /* @alternate */ outline: 5px auto -webkit-focus-ring-color; }
+
+input:-webkit-autofill {
+  /* @alternate */ -webkit-box-shadow: 0 0 0 2.4rem #fff inset; }
+input[type='date'], input[type='datetime-local'], input[type='month'], input[type='time'] {
+  /* @alternate */ -webkit-appearance: listbox; }
+input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-results-button, input[type='search']::-webkit-search-results-decoration {
+  display: none; }
+input[type='text']::-ms-clear, input[type='text']::-ms-reveal {
+  display: none;
+  height: 0;
+  width: 0; }
+
+[type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea,
+select {
+  font: inherit; }
+
+output {
+  display: inline-block; }
+
+select {
+  cursor: pointer;
+  word-wrap: normal; }
+
+textarea {
+  resize: vertical; }
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+.modal {
+  width: calc(100% - 2rem);
+  float: left;
+  margin-left: 1rem;
+  position: fixed;
+  top: 14rem;
+  right: 0;
+  bottom: 14rem;
+  left: 0;
+  border-radius: .4rem;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1; }
+  .modal .modal-header {
+    font-size: 2rem;
+    line-height: 1.2;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    background: #fff;
+    padding: 1.2rem 4rem; }
+    .modal .modal-header .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: auto;
+      left: auto;
+      background: none;
+      border: 0;
+      padding: 1.2rem;
+      width: 4rem;
+      z-index: 1; }
+      .modal .modal-header .close::before {
+        content: '\00D7'; }
+  .modal .modal-body {
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    background: #fff;
+    max-height: 100%;
+    min-height: 7.2rem;
+    overflow-y: auto;
+    padding: 1.2rem 1rem; }
+    .modal .modal-body:empty {
+      position: relative; }
+      .modal .modal-body:empty::before {
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: inherit;
+        font-family: FontAwesome;
+        line-height: inherit;
+        text-rendering: auto;
+        /* @alternate */ -webkit-font-smoothing: antialiased;
+        /* @alternate */ -moz-osx-font-smoothing: grayscale;
+        /* @alternate */ -webkit-animation: fa-spin 2s infinite linear;
+        animation: fa-spin 2s infinite linear;
+        position: absolute;
+        left: calc(50% - 0.8rem); }
+        .modal .modal-body:empty::before::before {
+          content: '\'; }
+  @media only screen and (min-width: 769px) {
+    .modal {
+      width: calc(83.3333333333% - 2.9333333333rem);
+      float: left;
+      margin-left: 1.6rem;
+      margin: 0 auto; }
+      .modal .modal-body {
+        padding: 2.4rem 1.6rem; }
+        .modal .modal-body::before {
+          top: 2.4rem; } }
+  @media only screen and (min-width: 1025px) {
+    .modal {
+      width: calc(75% - 2.8rem);
+      float: left;
+      margin-left: 1.6rem;
+      margin: 0 auto; }
+      .modal .modal-body {
+        padding-right: 1.6rem;
+        padding-left: 1.6rem; } }
+  @media only screen and (min-width: 1281px) {
+    .modal {
+      width: calc(58.3333333333% - 2.5333333333rem);
+      float: left;
+      margin-left: 1.6rem;
+      margin: 0 auto; }
+      .modal .modal-body {
+        padding-right: 1.6rem;
+        padding-left: 1.6rem; } }
+
+.modal-overlay::after {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  content: ''; }
+
+.slideshow {
+  margin: 0 0 2.4rem;
+  overflow: hidden; }
+  .slideshow > :last-child {
+    margin-bottom: 0; }
+  .slideshow .paginator {
+    position: absolute;
+    right: 7.2rem;
+    bottom: 0;
+    left: 7.2rem;
+    padding: 1.2rem;
+    text-align: center;
+    z-index: 1; }
+    .slideshow .paginator button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 1rem;
+      position: relative; }
+      .slideshow .paginator button.active::before {
+        background: #000; }
+      .slideshow .paginator button::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 0.1rem solid #000;
+        border-radius: 50%;
+        content: '';
+        margin: .5rem; }
+  .slideshow .pager {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none; }
+    .slideshow .pager .next,
+    .slideshow .pager .previous {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background: none;
+      border: 0;
+      padding: 0;
+      pointer-events: auto;
+      width: 7.2rem;
+      z-index: 1; }
+      .slideshow .pager .next:focus, .slideshow .pager .next:hover,
+      .slideshow .pager .previous:focus,
+      .slideshow .pager .previous:hover {
+        outline: none; }
+        .slideshow .pager .next:focus::before, .slideshow .pager .next:focus::after, .slideshow .pager .next:hover::before, .slideshow .pager .next:hover::after,
+        .slideshow .pager .previous:focus::before,
+        .slideshow .pager .previous:focus::after,
+        .slideshow .pager .previous:hover::before,
+        .slideshow .pager .previous:hover::after {
+          color: #fff; }
+      .slideshow .pager .next::before, .slideshow .pager .next::after,
+      .slideshow .pager .previous::before,
+      .slideshow .pager .previous::after {
+        font-size: 3.2rem;
+        line-height: 1.5; }
+    .slideshow .pager .next {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      right: 0; }
+      .slideshow .pager .next:focus, .slideshow .pager .next:hover {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)); }
+    .slideshow .pager .previous {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      left: 0; }
+      .slideshow .pager .previous:focus, .slideshow .pager .previous:hover {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)); }
+  .js .slideshow {
+    border: 0.1rem solid #ddd;
+    border-radius: .4rem;
+    position: relative; }
+    .js .slideshow .slides > * {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: none; }
+      .js .slideshow .slides > *.active {
+        display: block;
+        margin: 0;
+        position: static; }
+      .js .slideshow .slides > *.exiting {
+        position: absolute; }
+
+.button,
+button, [type='button'], [type='reset'], [type='submit'] {
+  background-color: #fff;
+  background-image: linear-gradient(white, #fdfdfd);
+  border: 0.1rem solid #ddd;
+  border-radius: .4rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.6rem 0;
+  padding: 0.5rem 1rem;
+  vertical-align: bottom; }
+  .button:focus, .button:hover,
+  button:focus,
+  button:hover, [type='button']:focus, [type='button']:hover, [type='reset']:focus, [type='reset']:hover, [type='submit']:focus, [type='submit']:hover {
+    background-image: linear-gradient(white, #ededed); }
+  .button.outline,
+  button.outline, [type='button'].outline, [type='reset'].outline, [type='submit'].outline {
+    background-image: none; }
+  .button.small,
+  button.small, [type='button'].small, [type='reset'].small, [type='submit'].small {
+    font-size: 1.4rem;
+    line-height: 1.5714285714;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: .3rem;
+    margin: 0; }
+  .button.large,
+  button.large, [type='button'].large, [type='reset'].large, [type='submit'].large {
+    font-size: 1.8rem;
+    line-height: 2.5555555556;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0; }
+  .button.disabled, .button[disabled],
+  button.disabled,
+  button[disabled], [type='button'].disabled, [type='button'][disabled], [type='reset'].disabled, [type='reset'][disabled], [type='submit'].disabled, [type='submit'][disabled] {
+    color: #808080;
+    pointer-events: none; }
+
+form {
+  margin: 0 0 2.4rem; }
+
+fieldset {
+  border-top: 0.1rem solid #ddd;
+  padding: 0 1.8rem;
+  margin: 0 0 2.4rem; }
+  fieldset > :last-child {
+    margin-bottom: 0; }
+
+legend {
+  display: initial;
+  margin-left: -.5em;
+  padding: 0 .5em;
+  width: initial; }
+
+label {
+  margin: 0 0 2.4rem;
+  width: 100%; }
+
+[type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea,
+select {
+  background-color: #fff;
+  border: 0.1rem solid #ddd;
+  border-radius: .4rem;
+  display: block;
+  margin: 0.6rem 0;
+  padding: 0.5rem 1rem;
+  width: 100%; }
+  [type='color'].small, [type='date'].small, [type='datetime'].small, [type='datetime-local'].small, [type='email'].small, [type='month'].small, [type='number'].small, [type='password'].small, [type='search'].small, [type='tel'].small, [type='text'].small, [type='time'].small, [type='url'].small, [type='week'].small, input:not([type]).small, textarea.small,
+  select.small {
+    font-size: 1.4rem;
+    line-height: 1.5714285714;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: .3rem;
+    margin: 0; }
+  [type='color'].large, [type='date'].large, [type='datetime'].large, [type='datetime-local'].large, [type='email'].large, [type='month'].large, [type='number'].large, [type='password'].large, [type='search'].large, [type='tel'].large, [type='text'].large, [type='time'].large, [type='url'].large, [type='week'].large, input:not([type]).large, textarea.large,
+  select.large {
+    font-size: 1.8rem;
+    line-height: 2.5555555556;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0; }
+  [type='color'][disabled], [type='date'][disabled], [type='datetime'][disabled], [type='datetime-local'][disabled], [type='email'][disabled], [type='month'][disabled], [type='number'][disabled], [type='password'][disabled], [type='search'][disabled], [type='tel'][disabled], [type='text'][disabled], [type='time'][disabled], [type='url'][disabled], [type='week'][disabled], input:not([type])[disabled], textarea[disabled],
+  select[disabled] {
+    background-color: #f7f7f7;
+    color: #808080;
+    pointer-events: none; }
+
+select {
+  color: inherit;
+  height: 3.6rem; }
+  select.small {
+    height: 2.4rem; }
+  select.large {
+    height: 4.8rem; }
+
+textarea.small, textarea.large {
+  font-size: 1.4rem;
+  line-height: 1.7142857143;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 0.6rem 0; }
+textarea.large {
+  font-size: 1.8rem;
+  line-height: 1.3333333333; }
+
+dl,
+ol,
+ul {
+  margin: 0 0 2.4rem; }
+  dl dl,
+  dl ol,
+  dl ul,
+  ol dl,
+  ol ol,
+  ol ul,
+  ul dl,
+  ul ol,
+  ul ul {
+    margin-bottom: 0; }
+
+ol,
+ul {
+  padding: 0 0 0 1.8rem; }
+
+dl dl {
+  margin-left: 1.8rem; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin: 0; }
+
+table {
+  margin: 0 0 2.4rem;
+  position: relative;
+  width: 100%; }
+  table.striped > tbody > tr:nth-child(odd) {
+    background-color: #f7f7f7; }
+
+caption {
+  font-weight: bold; }
+
+thead + tbody::before,
+tbody + tbody::before,
+tbody + tfoot::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-top: 0.1rem solid #ddd;
+  content: ''; }
+
+th,
+td {
+  padding: 0 .25em; }
+  th > dl:last-child,
+  th > ol:last-child,
+  th > ul:last-child,
+  th > table:last-child,
+  td > dl:last-child,
+  td > ol:last-child,
+  td > ul:last-child,
+  td > table:last-child {
+    margin-bottom: 0; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  margin: 0 0 2.4rem; }
+  h1 small, h1 .small, .h1 small, .h1 .small,
+  h2 small,
+  h2 .small, .h2 small, .h2 .small,
+  h3 small,
+  h3 .small, .h3 small, .h3 .small,
+  h4 small,
+  h4 .small, .h4 small, .h4 .small,
+  h5 small,
+  h5 .small, .h5 small, .h5 .small,
+  h6 small,
+  h6 .small, .h6 small, .h6 .small {
+    font-size: 75%;
+    font-weight: normal;
+    line-height: 1; }
+
+h1, .h1 {
+  font-size: 3.2rem;
+  line-height: 1.5; }
+
+h2, .h2 {
+  font-size: 2.8rem;
+  line-height: 1.7142857143; }
+
+h3, .h3 {
+  font-size: 2.4rem;
+  line-height: 1; }
+
+h4, .h4 {
+  font-size: 2rem;
+  line-height: 1.2; }
+
+h5, .h5 {
+  font-size: 1.6rem;
+  line-height: 1.5; }
+
+h6, .h6 {
+  font-size: 1.2rem;
+  line-height: 2; }
+
+p, .text {
+  margin: 0 0 2.4rem; }
+
+.large {
+  font-size: 2rem;
+  line-height: 1.2; }
+
+small, .small {
+  font-size: 1.2rem;
+  line-height: 2; }
+
+a {
+  color: #48c;
+  text-decoration: none; }
+  a:active, a:focus, a:hover {
+    color: #2d68a4;
+    text-decoration: underline; }
+
+hr {
+  border: 0;
+  border-top: 0.1rem solid #ddd;
+  margin: 0 0 2.3rem; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.container {
+  margin: 0 auto;
+  max-width: 74rem; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media only screen and (min-width: 769px) {
+    .container {
+      max-width: 99.2rem; } }
+  @media only screen and (min-width: 1025px) {
+    .container {
+      max-width: 123.2rem; } }
+  @media only screen and (min-width: 1281px) {
+    .container {
+      max-width: 147.2rem; } }
+
+.margin-bottom {
+  margin-bottom: 2.4rem; }
+
+.no-margin-bottom {
+  margin-bottom: 0; }
+
+[tabindex] {
+  cursor: pointer; }
+
+#nav {
+  font-size: 2.4rem;
+  line-height: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #48c;
+  color: #fff;
+  height: 4.8rem;
+  overflow-y: hidden;
+  z-index: 1; }
+  #nav > .container > div {
+    width: calc(100% - 2rem);
+    float: left;
+    margin-left: 1rem;
+    padding: 0 9.6rem;
+    position: relative; }
+  #nav a {
+    color: inherit;
+    text-decoration: none; }
+  #nav button {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: inherit;
+    margin: 0;
+    padding: 0; }
+  #nav .fa {
+    position: absolute;
+    top: 0;
+    line-height: 4.8rem;
+    text-align: center;
+    width: 4.8rem;
+    z-index: 1; }
+    #nav .fa.fa-home {
+      left: 0; }
+    #nav .fa.fa-plus-circle {
+      left: 4.8rem; }
+    #nav .fa.fa-chevron-circle-up {
+      right: 4.8rem; }
+    #nav .fa.fa-chevron-circle-down {
+      right: 0; }
+    #nav .fa:focus, #nav .fa:hover {
+      background: #5d98d3;
+      outline: 0; }
+  #nav + #main {
+    padding-top: 4.8rem; }
+  @media only screen and (min-width: 769px) {
+    #nav > .container > div {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+  @media only screen and (min-width: 1025px) {
+    #nav > .container > div {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+  @media only screen and (min-width: 1281px) {
+    #nav > .container > div {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+
+#nav_menu {
+  font-size: 2.4rem;
+  line-height: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #48c;
+  color: #fff;
+  float: none;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow-y: auto;
+  text-align: left;
+  width: 100%;
+  z-index: 1; }
+  #nav_menu a {
+    font-size: 2.4rem;
+    line-height: 1;
+    color: inherit;
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: 1.2rem 1rem;
+    text-decoration: none; }
+    #nav_menu a:focus, #nav_menu a:hover {
+      background: #5d98d3;
+      outline: 0; }
+  @media only screen and (min-width: 769px) {
+    #nav_menu a {
+      padding-right: 1.6rem;
+      padding-left: 1.6rem; } }
+  @media only screen and (min-width: 1025px) {
+    #nav_menu a {
+      padding-right: 1.6rem;
+      padding-left: 1.6rem; } }
+  @media only screen and (min-width: 1281px) {
+    #nav_menu a {
+      padding-right: 1.6rem;
+      padding-left: 1.6rem; } }
+
+#main {
+  width: calc(100% - 2rem);
+  float: left;
+  margin-left: 1rem;
+  padding: 2.4rem 0; }
+  #main .page-heading {
+    border-bottom: 0.1rem solid #eee;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.1rem; }
+  @media only screen and (min-width: 769px) {
+    #main {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+  @media only screen and (min-width: 1025px) {
+    #main {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+  @media only screen and (min-width: 1281px) {
+    #main {
+      width: calc(100% - 3.2rem);
+      float: left;
+      margin-left: 1.6rem; } }
+
+.margin-bottom {
+  margin-bottom: 1.2rem; }
+
+.center-block {
+  margin-right: auto;
+  margin-bottom: 1.2rem;
+  margin-left: auto;
+  display: block; }
+
+.modal-overlay {
+  height: 0;
+  overflow-y: hidden; }
+  .modal-overlay::after {
+    background: #48c; }
+
+/* typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p, .text {
+  margin: 0 0 1.2rem; }
+
+h3, .h3 {
+  line-height: 2; }
+
+.show-heading-numbers [data-heading]::before {
+  content: attr(data-heading) " "; }
+
+blockquote {
+  border-left: 0.5rem solid #eee;
+  padding: 1.2rem 0 1.2rem 2.5em;
+  margin: 0 0 1.2rem; }
+  blockquote footer {
+    text-align: right; }
+    blockquote footer cite {
+      color: #808080; }
+      blockquote footer cite::before {
+        content: "— "; }
+
+figure {
+  margin: 0 0 1.2rem; }
+
+img {
+  border: 0.1rem solid #ddd;
+  display: inline-block;
+  margin: 0 0 1.2rem;
+  padding: .4rem; }
+
+/* lists */
+dl.list-upper-roman,
+ol.list-upper-roman,
+ul.list-upper-roman {
+  counter-reset: list-upper-roman;
+  list-style-type: none;
+  padding: 0; }
+  dl.list-upper-roman > li::before,
+  dl.list-upper-roman > dt::before,
+  ol.list-upper-roman > li::before,
+  ol.list-upper-roman > dt::before,
+  ul.list-upper-roman > li::before,
+  ul.list-upper-roman > dt::before {
+    counter-increment: list-upper-roman;
+    content: counter(list-upper-roman,upper-roman) " – ";
+    font-weight: bold; }
+
+dl {
+  margin: 0 0 1.2rem; }
+  dl > dt {
+    float: left; }
+    dl > dt::after {
+      content: ': ';
+      white-space: pre; }
+  dl > dd {
+    margin: 0 0 1.2rem; }
+    dl > dd:last-child {
+      margin-bottom: 0; }
+
+ol,
+ul {
+  margin: 0 0 1.2rem;
+  padding: 0 0 0 1em; }
+
+/* tables */
+table {
+  border: 0.1rem solid #ddd;
+  /* border-top: 0; */
+  margin: 0 0 1.1rem; }
+  table tr {
+    position: relative; }
+    table tr::after {
+      position: absolute;
+      right: 0;
+      left: 0;
+      border-top: 0.1rem solid #ddd;
+      content: ''; }
+  table > thead:first-child > tr:first-child::after {
+    content: none; }
+  table caption {
+    background-color: #f5f5f5;
+    border: 0.1rem solid #ddd;
+    border-bottom: 0;
+    padding: 1.1rem 0.5em 1.2rem; }
+  table th,
+  table td {
+    padding: 1.2rem 0.5em; }
+  table.borderless {
+    border: 0;
+    margin-bottom: 1.2rem; }
+  table.army-list > caption {
+    background: none; }
+  table.army-list > colgroup > col {
+    width: auto !important; }
+  table.army-list > thead > tr > td {
+    text-align: center; }
+  table.army-list > tbody > tr.bordered {
+    border-top: 0.1rem solid #ddd;
+    padding-top: 1.1rem; }
+  table.army-list > tbody > tr.striped {
+    background: #f5f5f5; }
+  table.army-list tr {
+    position: static; }
+    table.army-list tr::after {
+      position: static;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      border-top: auto;
+      content: none; }
+  table.army-list td, table.army-list th {
+    vertical-align: top; }
+  table.army-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    table.army-list ul > li {
+      margin-bottom: 1.2rem; }
+      table.army-list ul > li:last-child {
+        margin-bottom: 0; }
+
+.table-responsive {
+  overflow-x: auto;
+  margin-bottom: 1.2rem; }
+  .table-responsive table:not(.army-list),
+  .table-responsive > table.army-list {
+    margin-bottom: 0; }
+
+/* IDs */
+#cover,
+#copyright,
+#reference_sheet {
+  display: none; }
+
+#examples_of_formations {
+  border: 0.1rem solid #ddd;
+  margin: 0 auto 1rem;
+  max-width: 391px; }
+  #examples_of_formations figcaption {
+    background: #f5f5f5;
+    border-bottom: 0.1rem solid #ddd;
+    font-weight: bold;
+    padding: 1.2rem 1em 1.1rem; }
+  #examples_of_formations > div {
+    padding: 1.2rem 1em; }
+  #examples_of_formations img:last-child {
+    margin: 0; }
+
+#example_initiatve_values,
+#needing_7_to_hit {
+  border: 0;
+  margin: 0 auto;
+  width: auto; }
+
+#examples_of_terrain img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block; }
+@media only screen and (min-width: 769px) {
+  #examples_of_terrain figure {
+    display: table; }
+  #examples_of_terrain img,
+  #examples_of_terrain figcaption {
+    display: table-cell;
+    margin: 0;
+    vertical-align: top; }
+  #examples_of_terrain figcaption {
+    padding-right: 1em; }
+  #examples_of_terrain #hull_down_example {
+    margin-right: 1em;
+    min-width: 504px; }
+    #examples_of_terrain #hull_down_example + figcaption {
+      padding-right: 0;
+      padding-left: 1em; }
+  #examples_of_terrain #partial_cover_example {
+    margin-left: 1em;
+    min-width: 461px; } }
+
+#weapon_fire_arcs {
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  display: block; }
+  @media only screen and (min-width: 769px) {
+    #weapon_fire_arcs {
+      float: right; }
+      #weapon_fire_arcs ~ p {
+        margin-right: 395px;
+        padding-right: 1em; } }
+
+#needing_7_to_hit {
+  margin-bottom: 0; }
+
+.barrage-table {
+  text-align: center; }
+  .barrage-table > thead > tr:last-child::after {
+    border: none; }
+
+/* classes */
+#abbreviations,
+.design-concept,
+.example-of-play,
+aside.faq,
+.short-story,
+.special-rule {
+  border: 0.1rem solid #ddd;
+  margin: 0 auto 1rem; }
+  #abbreviations header,
+  #abbreviations h1, #abbreviations .h1,
+  #abbreviations h2, #abbreviations .h2,
+  #abbreviations h3, #abbreviations .h3,
+  #abbreviations h4, #abbreviations .h4,
+  #abbreviations h5, #abbreviations .h5,
+  #abbreviations h6, #abbreviations .h6,
+  .design-concept header,
+  .design-concept h1,
+  .design-concept .h1,
+  .design-concept h2,
+  .design-concept .h2,
+  .design-concept h3,
+  .design-concept .h3,
+  .design-concept h4,
+  .design-concept .h4,
+  .design-concept h5,
+  .design-concept .h5,
+  .design-concept h6,
+  .design-concept .h6,
+  .example-of-play header,
+  .example-of-play h1,
+  .example-of-play .h1,
+  .example-of-play h2,
+  .example-of-play .h2,
+  .example-of-play h3,
+  .example-of-play .h3,
+  .example-of-play h4,
+  .example-of-play .h4,
+  .example-of-play h5,
+  .example-of-play .h5,
+  .example-of-play h6,
+  .example-of-play .h6,
+  aside.faq header,
+  aside.faq h1,
+  aside.faq .h1,
+  aside.faq h2,
+  aside.faq .h2,
+  aside.faq h3,
+  aside.faq .h3,
+  aside.faq h4,
+  aside.faq .h4,
+  aside.faq h5,
+  aside.faq .h5,
+  aside.faq h6,
+  aside.faq .h6,
+  .short-story header,
+  .short-story h1,
+  .short-story .h1,
+  .short-story h2,
+  .short-story .h2,
+  .short-story h3,
+  .short-story .h3,
+  .short-story h4,
+  .short-story .h4,
+  .short-story h5,
+  .short-story .h5,
+  .short-story h6,
+  .short-story .h6,
+  .special-rule header,
+  .special-rule h1,
+  .special-rule .h1,
+  .special-rule h2,
+  .special-rule .h2,
+  .special-rule h3,
+  .special-rule .h3,
+  .special-rule h4,
+  .special-rule .h4,
+  .special-rule h5,
+  .special-rule .h5,
+  .special-rule h6,
+  .special-rule .h6 {
+    font-size: 2rem;
+    line-height: 1.2;
+    background: #f5f5f5;
+    border-bottom: 0.1rem solid #ddd;
+    font-weight: bold;
+    margin: 0;
+    padding: 1.2rem 1em 1.1rem; }
+    #abbreviations header + .faq,
+    #abbreviations h1 + .faq, #abbreviations .h1 + .faq,
+    #abbreviations h2 + .faq, #abbreviations .h2 + .faq,
+    #abbreviations h3 + .faq, #abbreviations .h3 + .faq,
+    #abbreviations h4 + .faq, #abbreviations .h4 + .faq,
+    #abbreviations h5 + .faq, #abbreviations .h5 + .faq,
+    #abbreviations h6 + .faq, #abbreviations .h6 + .faq,
+    .design-concept header + .faq,
+    .design-concept h1 + .faq,
+    .design-concept .h1 + .faq,
+    .design-concept h2 + .faq,
+    .design-concept .h2 + .faq,
+    .design-concept h3 + .faq,
+    .design-concept .h3 + .faq,
+    .design-concept h4 + .faq,
+    .design-concept .h4 + .faq,
+    .design-concept h5 + .faq,
+    .design-concept .h5 + .faq,
+    .design-concept h6 + .faq,
+    .design-concept .h6 + .faq,
+    .example-of-play header + .faq,
+    .example-of-play h1 + .faq,
+    .example-of-play .h1 + .faq,
+    .example-of-play h2 + .faq,
+    .example-of-play .h2 + .faq,
+    .example-of-play h3 + .faq,
+    .example-of-play .h3 + .faq,
+    .example-of-play h4 + .faq,
+    .example-of-play .h4 + .faq,
+    .example-of-play h5 + .faq,
+    .example-of-play .h5 + .faq,
+    .example-of-play h6 + .faq,
+    .example-of-play .h6 + .faq,
+    aside.faq header + .faq,
+    aside.faq h1 + .faq,
+    aside.faq .h1 + .faq,
+    aside.faq h2 + .faq,
+    aside.faq .h2 + .faq,
+    aside.faq h3 + .faq,
+    aside.faq .h3 + .faq,
+    aside.faq h4 + .faq,
+    aside.faq .h4 + .faq,
+    aside.faq h5 + .faq,
+    aside.faq .h5 + .faq,
+    aside.faq h6 + .faq,
+    aside.faq .h6 + .faq,
+    .short-story header + .faq,
+    .short-story h1 + .faq,
+    .short-story .h1 + .faq,
+    .short-story h2 + .faq,
+    .short-story .h2 + .faq,
+    .short-story h3 + .faq,
+    .short-story .h3 + .faq,
+    .short-story h4 + .faq,
+    .short-story .h4 + .faq,
+    .short-story h5 + .faq,
+    .short-story .h5 + .faq,
+    .short-story h6 + .faq,
+    .short-story .h6 + .faq,
+    .special-rule header + .faq,
+    .special-rule h1 + .faq,
+    .special-rule .h1 + .faq,
+    .special-rule h2 + .faq,
+    .special-rule .h2 + .faq,
+    .special-rule h3 + .faq,
+    .special-rule .h3 + .faq,
+    .special-rule h4 + .faq,
+    .special-rule .h4 + .faq,
+    .special-rule h5 + .faq,
+    .special-rule .h5 + .faq,
+    .special-rule h6 + .faq,
+    .special-rule .h6 + .faq {
+      margin-top: 1.2rem; }
+  #abbreviations > div,
+  .design-concept > div,
+  .example-of-play > div,
+  aside.faq > div,
+  .short-story > div,
+  .special-rule > div {
+    padding: 1.2rem 1em; }
+    #abbreviations > div > :last-child,
+    .design-concept > div > :last-child,
+    .example-of-play > div > :last-child,
+    aside.faq > div > :last-child,
+    .short-story > div > :last-child,
+    .special-rule > div > :last-child {
+      margin-bottom: 0; }
+
+@media only screen and (min-width: 769px) {
+  #abbreviations > div {
+    margin-left: -1.6rem;
+    margin-right: -1.6rem;
+    width: calc(100% + 3.2rem); }
+    #abbreviations > div::after {
+      clear: both;
+      content: "";
+      display: block; }
+    #abbreviations > div > dl {
+      width: calc(33.3333333333% - 2.1333333333rem);
+      float: left;
+      margin-left: 1.6rem; } }
+@media only screen and (min-width: 1025px) {
+  #abbreviations > div {
+    margin-left: -1.6rem;
+    margin-right: -1.6rem;
+    width: calc(100% + 3.2rem); }
+    #abbreviations > div > dl {
+      width: calc(33.3333333333% - 2.1333333333rem);
+      float: left;
+      margin-left: 1.6rem; } }
+@media only screen and (min-width: 1281px) {
+  #abbreviations > div {
+    margin-left: -1.6rem;
+    margin-right: -1.6rem;
+    width: calc(100% + 3.2rem); }
+    #abbreviations > div > dl {
+      width: calc(33.3333333333% - 2.1333333333rem);
+      float: left;
+      margin-left: 1.6rem; } }
+
+.design-concept header::before {
+  content: 'Design Concept: '; }
+
+aside.faq > div > h4 {
+  display: none; }
+
+.faq dl {
+  margin: 0; }
+  .faq dl > dt {
+    float: none; }
+    .faq dl > dt::before {
+      content: 'Q: '; }
+    .faq dl > dt::after {
+      content: none; }
+    .faq dl > dt + dd::before {
+      content: 'A: '; }
+
+.example-of-play header::before {
+  content: 'Example of Play: '; }
+
+.special-rule h1::before, .special-rule .h1::before,
+.special-rule h2::before, .special-rule .h2::before,
+.special-rule h3::before, .special-rule .h3::before,
+.special-rule h4::before, .special-rule .h4::before,
+.special-rule h5::before, .special-rule .h5::before,
+.special-rule h6::before, .special-rule .h6::before {
+  content: 'Special Rule: '; }
+.special-rule .faq {
+  margin: 0 1em; }
+
+.unit {
+  overflow-x: auto; }
+  .unit::after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .unit .stats {
+    display: table;
+    width: 100%; }
+    .unit .stats > * {
+      display: table-cell;
+      padding: 0 0.15em;
+      text-align: center; }
+      .unit .stats > *::before {
+        display: block; }
+      .unit .stats > *.name {
+        text-align: left; }
+        .unit .stats > *.name::before {
+          content: 'Name'; }
+      .unit .stats > *.type::before {
+        content: 'Type/Hits'; }
+      .unit .stats > *.speed::before {
+        content: 'Speed'; }
+      .unit .stats > *.turns::before {
+        content: 'Turns'; }
+      .unit .stats > *.shields::before {
+        content: 'Shields'; }
+      .unit .stats > *.armour::before {
+        content: 'Armour'; }
+      .unit .stats > *.turrets::before {
+        content: 'Turrets'; }
+  .unit .weapons {
+    display: table;
+    width: 100%; }
+  .unit .weapon {
+    display: table-row-group; }
+    .unit .weapon:first-child > .weapon-line:first-child > *::before {
+      display: block; }
+    .unit .weapon:first-child > .weapon-line:first-child > *.name::before {
+      content: 'Weapons'; }
+    .unit .weapon:first-child > .weapon-line:first-child > *.range::before {
+      content: 'Range'; }
+    .unit .weapon:first-child > .weapon-line:first-child > *.firepower::before {
+      content: 'FP/STR'; }
+    .unit .weapon:first-child > .weapon-line:first-child > *.firearc::before {
+      content: 'Fire Arc'; }
+  .unit .weapon-line {
+    display: table-row; }
+    .unit .weapon-line > * {
+      display: table-cell;
+      padding: 0 0.1em;
+      text-align: center; }
+      .unit .weapon-line > *.name {
+        text-align: left; }
+      .unit .weapon-line > *.firearc {
+        text-align: center; }
+      .unit .weapon-line > *.boolean {
+        text-align: right; }
+      .unit .weapon-line > *.firepower {
+        text-align: left; }
+        .unit .weapon-line > *.firepower > :not(:last-child)::center {
+          content: ', '; }
+        .unit .weapon-line > *.firepower .special-rules > li:last-child::after {
+          content: none; }
+  .unit .notes {
+    padding: 0 0.5em; }
+    .unit .notes > * {
+      margin-bottom: 0; }
+    .unit .notes > .special-rules {
+      font-style: italic; }
+      .unit .notes > .special-rules + * {
+        display: inline; }
+    .unit .notes > :first-child::before {
+      content: 'Notes: ';
+      font-style: normal; }
+  .unit .special-rules {
+    padding: 0; }
+    .unit .special-rules, .unit .special-rules > li {
+      display: inline; }
+    .unit .special-rules > li::after {
+      content: ', '; }
+    .unit .special-rules > li:last-child::after {
+      content: '.'; }
+
+.unit {
+  background: #eee; }
+  .unit .stats > *::before, .unit .weapon:first-child > .weapon-line:first-child > *::before {
+    color: #808080;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    position: relative;
+    text-transform: uppercase;
+    top: 2px; }
+  .unit .stats > .name {
+    font-weight: bold; }
+    .unit .stats > .name::before {
+      font-weight: normal; }
+  @media only screen and (min-width: 769px) {
+    .unit .stats, .unit .weapons {
+      float: left;
+      width: 50%; }
+    .unit .notes {
+      clear: both; } }
+
+.datasheet {
+  margin: 0 0 1.2rem;
+  overflow-x: auto; }
+  .datasheet .unit:nth-child(odd) {
+    background: #fff; }
+
+[data-footnote]::after {
+  content: " " attr(data-footnote);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 0;
+  vertical-align: super; }
+
+.container {
+  margin: 0 auto;
+  max-width: 74rem; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media only screen and (min-width: 769px) {
+    .container {
+      max-width: 99.2rem; } }
+  @media only screen and (min-width: 1025px) {
+    .container {
+      max-width: 99.2rem; } }
+  @media only screen and (min-width: 1281px) {
+    .container {
+      max-width: 99.2rem; } }

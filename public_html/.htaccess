@@ -1,0 +1,11 @@
+RedirectMatch /pdfs/netea-tournament-pack.pdf /pdfs/netea-tournament-pack-2022-02-02.pdf
+RedirectMatch /pdfs/netea-faq.pdf /pdfs/netea-faq-2021-08-07.pdf
+RedirectMatch /pdfs/netea-chaos-black-crusade.pdf /pdfs/netea-chaos-black-crusade-2021-08-11.pdf
+RedirectMatch /pdfs/netea-chaos-incursion.pdf /pdfs/netea-chaos-incursion-2021-08-11.pdf
+RedirectMatch /pdfs/netea-eldar-corsairs.pdf /pdfs/netea-eldar-corsairs-2021-08-27.pdf
+RedirectMatch /pdfs/netea-eldar-craftworld.pdf /pdfs/netea-eldar-craftworld-2022-02-02.pdf
+RedirectMatch /pdfs/netea-imperial-armageddon-sector.pdf /pdfs/netea-imperial-armageddon-sector-2022-02-02.pdf
+RedirectMatch /pdfs/netea-imperial-bakka-sector.pdf /pdfs/netea-imperial-bakka-sector-2021-08-12.pdf
+RedirectMatch /pdfs/netea-imperial-bastion-fleets.pdf /pdfs/netea-imperial-bastion-fleets-2021-08-27.pdf
+RedirectMatch /pdfs/netea-imperial-gothic-sector.pdf /pdfs/netea-imperial-gothic-sector-2022-02-03.pdf
+RedirectMatch /pdfs/netea-ork-pirates.pdf /pdfs/netea-ork-pirates-2021-08-27.pdf

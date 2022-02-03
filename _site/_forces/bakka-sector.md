@@ -11,8 +11,8 @@ units:
   - tyrant
   - gothic
   - lunar
-  - endeavour
-  - endurance
+  - bakka-endeavour
+  - bakka-endurance
   - siluria
   
   - dominion

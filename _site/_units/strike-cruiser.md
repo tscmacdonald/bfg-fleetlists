@@ -22,5 +22,5 @@ special_rules:
   - space-marine-boarding
 notes:
   |
-    May replace prow launch bays with S6 prow torpedoes or 30cm S5 front-arc bombardment cannon. May replace prow bombardment cannon with a 30cm S1 L/F/R lance for +20 pts. May upgrade to 2 shields for +15 pts.
+    At least half of Strike Cruisers in the fleet must be unmodified from the basic profile. Up to half of the fleet's Strike Cruisers may replace prow launch bays with S6 prow torpedoes or 30cm S5 front-arc bombardment cannon, may replace prow bombardment cannon with a 30cm S1 L/F/R lance for +20 pts, and/or may upgrade to 2 shields for +15 pts. 
 ---
