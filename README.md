@@ -2,7 +2,9 @@
 
 Fleetlists for BFG, using the code written for the [Net Epic Armageddon Tournament Pack website](http://tp.net-armageddon.org/), powered by Jekyll.
 
-## The TL;DR Start
+## Quickstart
+
+Make sure you have a SSH key set up and added to git.
 
     $ git clone git@github.com:tscmacdonald/bfg-fleetlists.git
     $ cd bfg-fleetlists/
@@ -16,3 +18,4 @@ That should build and serve up the site at [http://localhost:4000/](http://local
  * [RVM](https://rvm.io/) (for Ruby and RubyGems)
  * [Bundler](http://bundler.io/) (for the gems)
  * [Prince](https://www.princexml.com/) (to build the PDFs)
+ * Jekyll now seems to need a JS interpreter: nodejs is fine

@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:dsusco/baseline-scss.git
+  remote: git@github.com:tscmacdonald/baseline-scss.git
   revision: 99e0b2e6a8fad893b52e965a6dcf1146897640a0
   specs:
     baseline-scss (0.2.19)

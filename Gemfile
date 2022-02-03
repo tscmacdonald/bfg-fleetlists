@@ -1,5 +1,5 @@
 #ruby=2.7.4
-#ruby-gemset=tp.net-armageddon.org
+#ruby-gemset=bfg-fleetlists
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.9.1'
@@ -10,5 +10,5 @@ gem 'uglifier', '~> 4.2.0'
 gem 'actionview', '~> 5.2.6'
 
 group :jekyll_plugins do
-  gem 'baseline-scss', '~> 0.2.19', :git => 'git@github.com:dsusco/baseline-scss.git'
+  gem 'baseline-scss', '~> 0.2.19', :git => 'git@github.com:tscmacdonald/baseline-scss.git'
 end
