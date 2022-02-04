@@ -22,5 +22,5 @@ weapons:
     id: prow-battery-60-5
 notes:
   |
-    +1 Ld, may not Come To New Heading. May carry Shark assault boats for +5 pts.
+    May not *Come To New Heading*. Bonus +1 to rolled leadership. May carry Shark assault boats for +5 pts.
 ---

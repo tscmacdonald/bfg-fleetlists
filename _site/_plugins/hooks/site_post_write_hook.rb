@@ -7,7 +7,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
       prince_commands(
         site,
         "#{page.data['pdf']}-.pdf",
-        "#{pdfs_dir}/#{page.data['pdf']}-#{page.data['mtime'].strftime('%F')}.pdf",
+        "#{pdfs_dir}/#{page.data['pdf']}.pdf",
         "#{site.dest}#{page.permalink || "#{page.url}#{page.name if page.index?}"}"
       )
     end
@@ -17,7 +17,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
     prince_commands(
       site,
       "#{army_list.data['pdf']}-.pdf",
-      "#{pdfs_dir}/#{army_list.data['pdf']}-#{army_list.data['mtime'].strftime('%F')}.pdf",
+      "#{pdfs_dir}/#{army_list.data['pdf']}.pdf",
       "#{site.dest}#{army_list.url}"
     )
   end

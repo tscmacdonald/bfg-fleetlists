@@ -18,5 +18,5 @@ weapons:
     id: prow-nova-cannon
 notes:
   |
-    May not Come To New Heading. May double lance range when Locked On, but if fired beyond 45cm immediately take Thrusters Damaged critical hit.
+    May not *Come To New Heading*. May double lance range when *Locked On*, but if fired beyond 45cm immediately take Thrusters Damaged critical hit.
 ---

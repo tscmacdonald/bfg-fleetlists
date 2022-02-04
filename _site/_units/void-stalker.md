@@ -2,7 +2,7 @@
 name: Void Stalker
 type: Battleship/10
 speed: 10/20/25
-turns: Special
+turns: "-"
 shields: Holo.
 armour: 4+
 turrets: 0

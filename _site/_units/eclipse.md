@@ -2,7 +2,7 @@
 name: Eclipse
 type: Cruiser/6
 speed: 10/20/25
-turns: Special
+turns: "-"
 shields: Holo.
 armour: 4+
 turrets: 0

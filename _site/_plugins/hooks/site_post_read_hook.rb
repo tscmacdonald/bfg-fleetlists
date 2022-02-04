@@ -68,7 +68,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   # set the mtime on an army list to the latest faq/force/special rule(faq)
   site.collections['army_lists'].docs.each do |al|
     # set the army list's PDF name
-    al.data['pdf'] = "netea-#{al.data['basename']}"
+    al.data['pdf'] = "bfg-#{al.data['basename']}"
 
     faq = site.data['faqs'][al.basename_without_ext]
     update_parent_mtime(al, faq)

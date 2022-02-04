@@ -20,5 +20,5 @@ weapons:
     id: prow-LFRbattery-30-6
 notes:
   |
-    Moves 5D6cm on All Ahead Full special orders.
+    Moves 5D6cm on *All Ahead Full* special orders.
 ---

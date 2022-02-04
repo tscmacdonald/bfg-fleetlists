@@ -22,5 +22,5 @@ weapons:
     id: prow-lance-30-4
 notes:
   |
-    May not Come To New Heading. May replace prow lance battery with S8 torpedoes for +10 pts.
+    May not *Come To New Heading*. May replace prow lance battery with S8 torpedoes for +10 pts.
 ---

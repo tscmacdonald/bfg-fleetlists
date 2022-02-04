@@ -18,5 +18,5 @@ weapons:
     id: prow-torps-9
 notes:
   |
-    May not Come To New Heading.
+    May not *Come To New Heading*.
 ---

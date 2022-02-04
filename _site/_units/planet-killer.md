@@ -26,5 +26,5 @@ special_rules:
   - armageddon-gun
 notes:
   |
-    May not Come To New Heading.
+    May not *Come To New Heading*.
 ---

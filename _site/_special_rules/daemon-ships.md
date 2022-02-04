@@ -2,11 +2,7 @@
 name: Daemon Ships
 ---
 Command
-: A Daemon ship may never be commanded by a Warmaster or a Chaos Lord. A Daemon ship may never have a Chaos Space Marine crew.
-
-Daemon ships cannot carry Exterminatus weapons and do not score any points for landing troops in a planetary assault. Daemonships cannot be used in squadrons.
-
-Any Daemon ship may have a single Mark of Chaos with the same effects and cost in points as described in the Battlefleet Gothic rulebook.
+: A Daemon ship may never be commanded by a Warmaster or a Chaos Lord. A Daemon ship may never have a Chaos Space Marine crew. Daemon ships cannot carry Exterminatus weapons and do not score any points for landing troops in a planetary assault. Daemonships cannot be used in squadrons. Any Daemon ship may have a single Mark of Chaos with the same effects and cost in points as described in the Battlefleet Gothic rulebook.
 
 Warp Translation
 : A Daemonship may be kept off table at the start of a game while the 	rest of the fleet is deployed. In the End phase of any Chaos turn after the first, the Daemon Ship may enter play from the Warp as follows:\

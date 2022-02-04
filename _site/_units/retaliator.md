@@ -23,5 +23,5 @@ weapons:
 
 notes:
   |
-    Ignore Prow critical results. May be equipped with improved thrusters for 5D6cm move on All Ahead Full at no cost.
+    Ignore Prow critical results. May be equipped with improved thrusters for 5D6cm move on *All Ahead Full* at no cost.
 ---

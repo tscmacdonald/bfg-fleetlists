@@ -2,7 +2,7 @@
 name: Nightshade
 type: Escort/1
 speed: 15/20/30
-turns: Special
+turns: "-"
 shields: Holo.
 armour: 4+
 turrets: 0
