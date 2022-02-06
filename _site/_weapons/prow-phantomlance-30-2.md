@@ -1,8 +1,8 @@
 ---
-name: Prow wpns battery
+name: Prow Phantom Lance
 modes:
   -
-    range: 30cm
+    range: 30
     firepower: 2
     firearc: Front
 ---

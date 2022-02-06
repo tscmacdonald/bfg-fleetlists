@@ -17,5 +17,5 @@ weapons:
 
 notes:
   |
-    Additional +1D6 on All Ahead Full orders.
+    Improved thrusters: +D6cm on *All Ahead Full* orders.
 ---

@@ -16,5 +16,5 @@ weapons:
     id: prow-lance-30-3
 notes:
   |
-    May exchange prow lance battery for S6 prow torpedoes at no cost.
+    Improved thrusters: +D6cm on *All Ahead Full* orders. May exchange prow lance battery for S6 prow torpedoes at no cost.
 ---

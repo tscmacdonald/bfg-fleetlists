@@ -6,6 +6,7 @@ RedirectMatch /pdfs/bfg-chaos-incursion.pdf /pdfs/bfg-chaos-incursion.pdf
 RedirectMatch /pdfs/bfg-chaos-plaguefleet.pdf /pdfs/bfg-chaos-plaguefleet.pdf
 RedirectMatch /pdfs/bfg-chaos-pleasurefleet.pdf /pdfs/bfg-chaos-pleasurefleet.pdf
 RedirectMatch /pdfs/bfg-chaos-sorcerous-fleet.pdf /pdfs/bfg-chaos-sorcerous-fleet.pdf
+RedirectMatch /pdfs/bfg-dark-eldar.pdf /pdfs/bfg-dark-eldar.pdf
 RedirectMatch /pdfs/bfg-eldar-corsairs.pdf /pdfs/bfg-eldar-corsairs.pdf
 RedirectMatch /pdfs/bfg-eldar-craftworld.pdf /pdfs/bfg-eldar-craftworld.pdf
 RedirectMatch /pdfs/bfg-imperial-armageddon-sector.pdf /pdfs/bfg-imperial-armageddon-sector.pdf
