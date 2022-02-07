@@ -17,6 +17,8 @@ units:
   - venerable-battle-barge
 
 special_rules:
+  - bombardment-cannons
   - space-marine-leadership
   - space-marine-boarding
+  - thunderhawk-gunships
 ---
