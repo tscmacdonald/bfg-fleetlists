@@ -14,3 +14,6 @@ RedirectMatch /pdfs/bfg-imperial-bakka-sector.pdf /pdfs/bfg-imperial-bakka-secto
 RedirectMatch /pdfs/bfg-imperial-bastion-fleets.pdf /pdfs/bfg-imperial-bastion-fleets.pdf
 RedirectMatch /pdfs/bfg-imperial-gothic-sector.pdf /pdfs/bfg-imperial-gothic-sector.pdf
 RedirectMatch /pdfs/bfg-ork-pirates.pdf /pdfs/bfg-ork-pirates.pdf
+RedirectMatch /pdfs/bfg-space-marine-astartes.pdf /pdfs/bfg-space-marine-astartes.pdf
+RedirectMatch /pdfs/bfg-space-marine-crusade.pdf /pdfs/bfg-space-marine-crusade.pdf
+RedirectMatch /pdfs/bfg-space-marine-dominion.pdf /pdfs/bfg-space-marine-dominion.pdf

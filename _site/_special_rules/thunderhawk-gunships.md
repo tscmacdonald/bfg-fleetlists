@@ -11,3 +11,6 @@ Thunderhawks and Enemy Ships
 
 Refitting to carry Thunderhawks
 : Any vessel that earns or pays for a refit to carry Thunderhawks may then ONLY carry them, and its launch bay capacity is reduced by half (rounding up when applicable). Escort carriers may never be upgraded to carry Thunderhawks!
+
+Thunderhawk Annihilators
+: Some Space Marine vessels are noted as carrying Thunderhawk Annihilators. Thunderhawk Annihilators combine the abilities of bombers and fighters, and they move like any other attack craft with a speed of 20cm. A Thunderhawk Annihilator that is intercepted by enemy fighters or moves onto an enemy ordnance marker removes the enemy marker exactly the same way fighters would. However, they are extremely resilient and follow all special rules for Thunderhawks above. When a Thunderhawk Annihilator comes in contact with an enemy ship’s base, they attack it like bombers, even if they have used their resilience to remain in play. Once they complete their attack, they are removed normally. Thunderhawk Annihilators cannot be used as assault boats.

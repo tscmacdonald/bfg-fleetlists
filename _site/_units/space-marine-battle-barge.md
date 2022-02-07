@@ -21,6 +21,7 @@ weapons:
 special_rules:
   - space-marine-leadership
   - space-marine-boarding
+  - thunderhawk-gunships
 notes:
   |
     May not Come to New Heading.
