@@ -14,7 +14,7 @@ Terminator Teleport Assault
 : Battleships and grand cruisers with Chaos Space Marine Crews may embark Chosen Terminators for +10 pts, allowing them to roll two dice when conducting hit and run teleport attacks and select which one they wish to count.
 
 Marks of Chaos
-: A ship with a Chaos Space Marine crew may have a Mark of Chaos, even if a Warmaster or Lord does not captain it. However there are some restrictions on exactly which Mark it can have based on the Chaos Space Marine Legion that controls it. Even if a Warmaster or Lord captains a ship, if it has a Chaos Space Marine crew the choice of Mark of Chaos is limited as well. The options are shown in the table below.
+: A ship with a Chaos Space Marine crew may have a Mark of Chaos, even if a Warmaster or Lord does not captain it.  However there are some restrictions on exactly which Mark it can have based on the Chaos Space Marine Legion that controls it. Even if a Warmaster or Lord captains a ship, if it has a Chaos Space Marine crew the choice of Mark of Chaos is limited as well. The options are shown in the table below.
 
 |Legion |Marks|
 --- | ---
@@ -26,7 +26,7 @@ Marks of Chaos
 |Others|May not have any Mark|
 
 Legion Fleets
-: If the Warmaster’s ship has a Chaos Space Marine crew then all other ships in the fleet that have Chaos Space Marine crew must be of the same legion, unless a Chaos Lord captains them. Rivalry Members of the Emperor’s Children and the World Eaters cannot be combined in the same fleet. Similarly members of the Death Guard and Thousand Sons may not be combined in the same fleet. 
+: If the Warmaster’s ship has a Chaos Space Marine crew then all other ships in the fleet that have Chaos Space Marine crew must be of the same legion, unless a Chaos Lord captains them. **Rivalry:** Members of the Emperor’s Children and the World Eaters cannot be combined in the same fleet. Similarly, members of the Death Guard and Thousand Sons may not be combined in the same fleet. 
 
 Capital Ship Squadrons 
 : If capital ships are grouped as squadrons then each squadron may only contain a single Warmaster or Lord and that ship must lead the squadron. Similarly a squadron may not include ships with differen  Marks of Chaos. 
