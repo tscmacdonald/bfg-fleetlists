@@ -13,9 +13,9 @@ weapons:
   -
     id: Sbattery-60-6
   -
-    -id: Pbattery-45-4
+    id: Pbattery-45-4
   -
-    -id: Sbattery-45-4
+    id: Sbattery-45-4
   -
     id: dorsal-lance-60-2
   -
