@@ -9,9 +9,9 @@ turrets: 3
 
 weapons:
   -
-    id: imp-Pbays-3
+    id: imp-Pbays-2
   -
-    id: imp-Sbays-3
+    id: imp-Sbays-2
   -
     id: Plance-45-2
   -
