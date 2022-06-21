@@ -1,3 +1,4 @@
+
 ---
 name: Havoc
 type: Escort/1
@@ -11,5 +12,5 @@ weapons:
   -
     id: dorsal-battery-30-3
   -
-    id: prow-LFRbattery-30-2
+    id: prow-battery-30-2
 ---
