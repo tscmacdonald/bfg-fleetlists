@@ -1,6 +1,7 @@
 # bfg-fleetlists
 
 Fleetlists for BFG, using the code written for the [Net Epic Armageddon Tournament Pack website](http://tp.net-armageddon.org/), powered by Jekyll.
+The site is currently live at [bfg-lists.org](https://bfg-lists.org/).
 
 ## Quickstart
 
