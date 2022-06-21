@@ -20,5 +20,5 @@ weapons:
     multiplier: 0-1
   -
     id: impaler
-    multiplier: 0-1
+    multiplier: 0-2
 ---
