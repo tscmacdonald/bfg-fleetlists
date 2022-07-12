@@ -17,3 +17,5 @@ RedirectMatch /pdfs/bfg-ork-pirates.pdf /pdfs/bfg-ork-pirates.pdf
 RedirectMatch /pdfs/bfg-space-marine-astartes.pdf /pdfs/bfg-space-marine-astartes.pdf
 RedirectMatch /pdfs/bfg-space-marine-crusade.pdf /pdfs/bfg-space-marine-crusade.pdf
 RedirectMatch /pdfs/bfg-space-marine-dominion.pdf /pdfs/bfg-space-marine-dominion.pdf
+RedirectMatch /pdfs/bfg-tau-cpf.pdf /pdfs/bfg-tau-cpf.pdf
+RedirectMatch /pdfs/bfg-tau-merchants.pdf /pdfs/bfg-tau-merchants.pdf
