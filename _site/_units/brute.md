@@ -9,7 +9,7 @@ turrets: 1
 
 weapons:
   -
-    id: gunz-30-2
+    id: LFRgunz-30-2
 
 notes:
   |
