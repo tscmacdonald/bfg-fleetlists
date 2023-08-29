@@ -1,5 +1,5 @@
 ---
-name: Tau Allied
+name: Tau Kor'Vattra Allied
 order: 2
 
 units:
@@ -7,7 +7,9 @@ units:
   - stronghold
   - bastion
   - citadel
-  - n-caravan
-  - n-rig
   - n-dhow
+special_rules:
+  - kroot-warsphere
+  - demiurg-technology
+  - cutting-beam
 ---

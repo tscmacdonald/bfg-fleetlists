@@ -1,5 +1,5 @@
 ---
-name: Tau Allies
+name: Tau Kor'or'vesh Allied
 order: 2
 
 units:
@@ -14,7 +14,12 @@ units:
   - dauntless
   - endeavour
   - xenos-vessel
-  - recommissioned-escort
+  - recomissioned-escort
   - iconoclast
   - cargo-vessel
+special_rules:
+  - kroot-warsphere
+  - demiurg-technology
+  - cutting-beam
+  - xenotech-systems
 ---
