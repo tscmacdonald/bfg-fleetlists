@@ -1,5 +1,5 @@
 ---
-name: Prow gravitic launcher
+name: Prow grav. launcher
 modes:
   -
     range: (20–40cm)

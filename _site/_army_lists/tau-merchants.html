@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Tau – Korvattra Fleet
+title: Tau – Kor'vattra Merchant Fleet
 name: Kor'vattra
 introduction:
   |
@@ -11,6 +11,7 @@ introduction:
     </blockquote>
 forces:
   - tau-merchants
+  - tau-allies
 using_the_army_list:
   |
     The fleet list includes the following information:
@@ -25,10 +26,12 @@ using_the_army_list:
     : The points value of the formation.
 special_rules_text:
   |
-    Tau fleets fight with [_Tau characteristics_](#tau-characteristics) and are equipped with [_Tau systems_](#tau-systems).
-special_rules:
-  -
+    Tau fleets use [_Tau special rules_](#tau-special-rules) and are equipped with [_Tau systems_](#tau-systems) and [_Tau ordnance_](#tau-ordnance)
 
+special_rules:
+  - tau-special-rules
+  - tau-systems
+  - tau-ordnance
 ---
 <p>The Tau Kor'vattra fleet has an attack rating of 2.</p>
 
@@ -42,7 +45,7 @@ special_rules:
     </colgroup>
     <tbody>
 	<tr>
-	 <th colspan="3">You may include 0–1 Commander in your fleet, who must be assigned to a ship and improves its Leadership to the value shown. If the fleet is worth over 750 points a Commander must be included to lead it.</th>
+	 <td colspan="3"><i>You may include 0–1 Commander in your fleet, who must be assigned to a ship and improves its Leadership to the value shown. If the fleet is worth over 750 points a Commander must be included to lead it.</i></td>
 	 </tr>
       <tr>
         <th>Type</th>
@@ -59,7 +62,7 @@ special_rules:
 		<td>80</td><td></td>
 		</tr>
 	  <tr>
-        <th colspan="3">The commander has re-roll included in their points cost. If you want more you'll have to pay for them.</th>
+        <td colspan="3"><i>The commander has re-roll included in their points cost. If you want more you'll have to pay for them.</i></td>
       </tr>
 	  <tr>
         <th>Type</th>
@@ -90,7 +93,7 @@ special_rules:
     </colgroup>
     <tbody>
 	<tr>
-    <th colspan="3">You may include any number of battleships in your fleet. If your fleet is worth more than 750 pts it must include at least one Explorer.</th>
+    <td colspan="3"><i>You may include any number of battleships in your fleet. If your fleet is worth more than 750 pts it must include at least one Explorer.</i></td>
 	</tr>
       <tr>
         <th>Type</th>
@@ -103,8 +106,8 @@ special_rules:
         <td>May be either Mk XXIII Vash'ya or Mk XXIV Bor'kan configuration</td>
       </tr>
         
-    <th colspan="3">You may include any number of <i>Merchant</i>-class starship. You may include one <i>Hero</i>-class starship for each <i>Merchant</i> or <i>Explorer</i> in the fleet.</th>
-	</tr>
+    <td colspan="3"><i>You may include any number of <i>Merchant</i>-class starship. You may include one <i>Hero</i>-class starship for each <i>Merchant</i> or <i>Explorer</i> in the fleet.</th>
+	</i></td>
       <tr>
         <th>Type</th>
         <th>Cost</th>
@@ -120,7 +123,7 @@ special_rules:
 	  <tr>
         <td><i>Merchant</i>-class starship</td>
         <td>95 pts</td>
-        td><ul>
+        <td><ul>
 		<li>May be either Kel'shan or Dal'yth configuration</li>
 		<li>May upgrade from 4 to 6 hitpoints for +15 pts</li>
 		</ul></td>
@@ -139,7 +142,7 @@ special_rules:
     </colgroup>
     <tbody>
 	<tr>
-    <th colspan="3">You may include up to one <i>Messenger</i>-class starship per 500 pts. You may include any number of <i>Defender</i>-class starships. You may not include more <i>Orca</i> and/or <i>Defender</i>-class gunships than the total gravitic hook capacity of the fleet.</th>
+    <td colspan="3"><i>You may include up to one <i>Messenger</i>-class starship per 500 pts. You may include any number of <i>Defender</i>-class starships. You may not include more <i>Orca</i> and/or <i>Defender</i>-class gunships than the total gravitic hook capacity of the fleet.</i></td>
 	</tr>
       <tr>
         <th>Class</th>
@@ -172,6 +175,61 @@ special_rules:
 
 <div class="table-responsive">
   <table class="army-list">
+    <caption>Allies, Subjects, and Mercenaries</caption>
+    <colgroup>
+      <col style="width:24em">
+      <col style="width:12em">
+      <col style="width:48em">
+    </colgroup>
+    <tbody>
+	<tr>
+    <td colspan="3"><i>You may include up to one Warsphere if the fleet is worth up to 1500 points, or up to two in games larger than that. <i>Warspheres</i> do not count against cruiser limits in Kor'vattra fleets.</i></td>
+	</tr>
+      <tr>
+        <th>Class</th>
+        <th>Cost</th>
+        <th>Options</th>
+      </tr>
+	  <tr>
+	  <td>Kroot Warsphere</td>
+	  <td>145 pts</td>
+	  <td></td>
+	  </tr>
+	  <td colspan="3"><i>A Tau fleet can include up to one Demiurg vessel for every three Tau capital ships in the fleet. There cannot be more Stronghold than Bastion vessels in the fleet.</i></td>
+	</tr>
+      <tr>
+        <th>Class</th>
+        <th>Cost</th>
+        <th>Options</th>
+      </tr>
+	  <tr>
+	  <td>Stronghold commerce vessel</td>
+	  <td>350 pts</td>
+	  <td></td>
+	  </tr>
+	  <tr>
+	  <td>Bastion commerce vessel</td>
+	  <td>255 pts</td>
+	  <td></td>
+	  </tr>
+	  <td colspan="3"><i>Your fleet may include Nicassar Dhows in place of some or all of its Orcas. You may not have more Dhows (or Orcas) than the gravitic hook capacity of the fleet. A capital ship may have either Orcas or Dhows but not both.</i></td>
+	</tr>
+      <tr>
+        <th>Class</th>
+        <th>Cost</th>
+        <th>Options</th>
+      </tr>
+	  <tr>
+	  <td>Nicassar Dhow</td>
+	  <td>45</td>
+	  <td></td>
+	  </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="army-list">
     <caption>Ordnance</caption>
     <colgroup>
       <col>
@@ -180,7 +238,7 @@ special_rules:
     </colgroup>
     <tbody>
     <tr>
-    <td colspan="3">Any ship with launch bays may choose to have them launch any mix of Barracuda interceptors and Manta bombers. Ships with gravitic launchers carry Tau missiles.</td>
+    <td colspan="3"><i>Any ship with launch bays may choose to have them launch any mix of Barracuda interceptors and Manta bombers. Ships with gravitic launchers carry Tau missiles.</i></td>
     </td>
     </tbody>
   </table>

@@ -4,7 +4,7 @@ type: Battleship/12
 speed: 15cm
 turns: 45°
 shields: 1
-armour: 5+/R4+
+armour: 5+/4+ R
 turrets: 5
 
 weapons:

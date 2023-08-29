@@ -1,5 +1,5 @@
 ---
-name: Tau Korvattra
+name: Tau Kor'vattra
 order: 2
 
 units:
@@ -7,13 +7,13 @@ units:
   - warden
   - defender
   - messenger
-
   - merchant-standard
-  - mechant-alt
-  
+  - merchant-alt
   - hero-standard
   - hero-alt
- 
   - explorer-standard
   - explorer-alt
+
+special_rules:
+  - deflector-shield
 ---
