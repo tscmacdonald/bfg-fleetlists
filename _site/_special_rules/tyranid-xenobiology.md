@@ -1,6 +1,8 @@
 --- 
 name: Tyranid Xenobiology
 --- 
+
+
 Navigation
 : All Tyranid ships are naturally adapted void-swimming organisms and make all Leadership checks to navigate celestial phenomena on a default leadership of 10.
 
@@ -38,15 +40,15 @@ Critical Hits & Catastrophic Damage
 **Tyranid Critical Hits**
 
 | 2D6 Roll | Extra Damage | Result |
-| 2 | +0 | **Spore cysts injured**: The ship’s spore cysts are badly damaged by the hit. The ship’s spore cysts may not be used until they have been repaired. |
-| 3 | +0 | **Starboard armament wounded**: The starboard armament is severely injured by the hit. The ship’s starboard armament may not be used again until it has been repaired. |
-| 4 | +0 | **Port armament wounded**: Heavy damage wounds the port side weaponry. The ship’s port armament may not be used until it has been repaired. |
-| 5 | +0 | **Prow armament wounded**: The bio-ship’s prow is ripped open. Its prow armament may not be used until it has been repaired. |
-| 6 | +1 | **Thorax armament wounded**: A large tear in the vessel’s thorax prevents its weapons discharging. The ship may not use its thorax weapons until the damage is repaired. |
-| 7 | +0 | **Heavy wound!** Internal organs are ruptured and massive bleeding weakens the vessel. Roll to repair the heavy wound in the End phase, if the wound is not repaired it causes 1 point of extra damage and keeps bleeding. |
-| 8 | +1 | **Discharge vents wounded**: One of the huge biological valves that manoeuvre the ship through the ether are crippled. The bio-ship may not turn until the damage is repaired. |
-| 9 | +0 | **Synapse severed**: The nerve bundles which connect the ship to the Hive Mind are badly damaged. The bio-ship cannot have its instinctual orders overridden by the Hive Mind until the damage is repaired. |
-| 10 | +0 | **Spore cysts ruptured**: The ship’s spore cysts suffer larvae failure and seal up. The bio-ship may no longer use its spore cysts. This damage cannot be repaired. |
+| 2 | +0 | **Spore cysts injured**: The ship's spore cysts may not be used until they have been repaired. |
+| 3 | +0 | **Starboard armament wounded**: The ship's starboard armament may not be used again until it has been repaired. |
+| 4 | +0 | **Port armament wounded**: The ship's port armament may not be used until it has been repaired. |
+| 5 | +0 | **Prow armament wounded**: The ship's prow armament may not be used until it has been repaired. |
+| 6 | +1 | **Thorax armament wounded**: The ship may not use its thorax weapons until the damage is repaired. |
+| 7 | +0 | **Heavy wound!** Roll to repair the heavy wound in the End phase, if the wound is not repaired it causes 1 point of extra damage and keeps bleeding. |
+| 8 | +1 | **Discharge vents wounded**: The bio-ship may not turn until the damage is repaired. |
+| 9 | +0 | **Synapse severed**: The bio-ship cannot have its instinctual orders overridden by the Hive Mind until the damage is repaired. |
+| 10 | +0 | **Spore cysts ruptured**: The bio-ship may no longer use its spore cysts. This damage cannot be repaired. |
 | 11 | +D3 | **Severe wound**: A huge gash is torn in the ship’s hull, vital fluids freezing instantly as they spill into the void. |
 | 12 | +D6 | **Massive haemorrhage**: The armoured hide of the ship suffers immense damage, spraying alien ichor far into the void. Make a bio-plasma attack with Strength 1 against any other target within 2D6 cm. Holofields do not protect against this damage. |
 
@@ -54,7 +56,7 @@ Critical Hits & Catastrophic Damage
 
 | 2D6 Roll | Extra Blast Markers | Result |
 | --- | --- | --- |
-2-7 | +1 | **Drifting Carcasse**: The limp remains of the bio-ship drift through the void, pushed forward by sporadic death spasms. The wreck moves 4D6 cm forward in each of its subsequent movement phases. Place a blast marker in contact with the corpse’s base after each move. 
-8-9 | +1 | **Death throes**: The ship is wracked by violent muscle contractions, and ichor seeps from dozens of horrendous wounds. The wreck moves 4D6 cm forward in each of its subsequent Movement phases. Place a Blast marker in contact with the corpse’s base and roll on the Catastrophic Damage table again after its move.
-10-11 | Half Damage | **Biological eruption**: The ship spectacularly explodes, hurling gobbets of viral slime and acid over a wide area. Remove the ship from play, leaving behind a number of blast markers equal to half its starting number of hits. Make a pyro- acid attack against every target within 3D6 cm, with a firepower equal to the ship’s starting damage
-12 | Starting Damage | **Bio-plasma detonation**: With a blinding flash the ship’s main arteries explode with bio-plasma engulfing the creature and spraying dangerously in all directions. Remove the ship from play, leaving behind a number of blast markers equal to its starting number of hits. Make a bio-plasma attack against every target within 3D6 cm, with a Strength equal to half the exploding vessel’s starting damage. Shields and holofields are not effective against the detonation.
+2-7 | +1 | **Drifting Carcasse**: The wreck moves 4D6 cm forward in each of its subsequent movement phases. Place a blast marker in contact with the corpse’s base after each move. 
+8-9 | +1 | **Death throes**: The wreck moves 4D6 cm forward in each of its subsequent Movement phases. Place a Blast marker in contact with the corpse’s base and roll on the Catastrophic Damage table again after its move.
+10-11 | Half Damage | **Biological eruption**: Remove the ship from play, leaving behind a number of blast markers equal to half its starting number of hits. Make a pyro- acid attack against every target within 3D6 cm, with a firepower equal to the ship’s starting damage
+12 | Starting Damage | **Bio-plasma detonation**: Remove the ship from play, leaving behind a number of blast markers equal to its starting number of hits. Make a bio-plasma attack against every target within 3D6 cm, with a Strength equal to half the exploding vessel’s starting damage. Shields and holofields are not effective against the detonation.

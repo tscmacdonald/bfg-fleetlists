@@ -11,14 +11,17 @@ weapons:
     id: prow-battery-30-12
   -
     id: deldar-launchbay-4
-    multiplier: 0-1
+    slot: (0-1)
   -
     id: prow-phantomlance-30-2
-    multiplier: 0-1
+    slot: (0-1)
   -
     id: prow-torps-4
-    multiplier: 0-1
+    slot: (0-1)
   -
     id: impaler
-    multiplier: 0-2
+    slot: (0-2)
+notes:
+  |
+    Armed with a prow weapons battery. May choose one additional weapon (or up to two Impalers) from those listed, at the cost in the fleet list.
 ---

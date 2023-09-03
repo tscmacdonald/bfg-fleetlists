@@ -10,33 +10,33 @@ armour: 5+
 weapons:
   -
     id: prow-pyroacid-30-8
-    multiplier: Prow
+    slot: (1 Prow)
   -
     id: feeder-tentacles
-    multiplier: Prow
+    slot: (1 Prow)
   -
     id: massive-claws
-    multiplier: Prow
+    slot: (1 Prow)
   -
     id: tyranid-boardingtorps-15-4
-    multiplier: Prow
+    slot: (1 Prow)
   -
     id: feeder-tentacles
-    multiplier: Thorax
+    slot: (1 Thorax)
   -
     id: massive-claws
-    multiplier: Thorax
+    slot: (1 Thorax)
   -
     id: tyranid-boardingtorps-15-4
-    multiplier: Thorax
+    slot: (1 Thorax)
   -
     id: PSpyroacid-30-4
-    multiplier: Port/Stbd
+    slot: (0-2 Port/Stbd)
   -
     id: PSbioplasma-15-2
-    multiplier: Port/Stbd
+    slot: (0-2 Port/Stbd)
 
 notes:
   |
-    Must purchase one prow weapon and one thorax weapon. May purchase 0-2 port/starboard weapons (each choice includes both port and starboard sides). Prow and Thorax boarding torpedoes cannot combined into a single salvo and must be launched separately.
+    Must choose one **Prow** and one **Thorax** weapon at the costs in the fleet list. May choose up to two **Port/Stbd** weapons at the costs in the fleet list (each Port/Stbd choice includes both port and starboard sides). Prow and Thorax boarding torpedoes cannot be combined into a single salvo and must be launched separately.
 ---
