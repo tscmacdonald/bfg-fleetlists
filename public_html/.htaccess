@@ -19,3 +19,5 @@ RedirectMatch /pdfs/bfg-space-marine-crusade.pdf /pdfs/bfg-space-marine-crusade.
 RedirectMatch /pdfs/bfg-space-marine-dominion.pdf /pdfs/bfg-space-marine-dominion.pdf
 RedirectMatch /pdfs/bfg-tau-cpf.pdf /pdfs/bfg-tau-cpf.pdf
 RedirectMatch /pdfs/bfg-tau-merchants.pdf /pdfs/bfg-tau-merchants.pdf
+RedirectMatch /pdfs/bfg-tyranid-hive-fleet.pdf /pdfs/bfg-tyranid-hive-fleet.pdf
+RedirectMatch /pdfs/bfg-tyranid-vanguard-fleet.pdf /pdfs/bfg-tyranid-vanguard-fleet.pdf
