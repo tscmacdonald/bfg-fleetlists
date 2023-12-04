@@ -21,7 +21,6 @@ If the target is hit by claws only 0 or 1 times, the Tyranid ship can continue m
 
 The sizes for the purposes of continuing movement while grabbed by Massive Claws are exactly the same as ramming, so from biggest to smallest:
 Defence > Battleship > Cruiser > Escort
-For example, a battleship with a bunch of
 
 If a ship is grabbed by Massive Claws it cannot attempt to disengage until free of them. Both ships may shoot at half effectiveness (nova cannon and similar special weapons cannot fire). Either ship may conduct boarding actions as normal. 
 In every End phase roll to attack again. Additionally, if any two attacks hit when a vessel is already grappled then it takes a third additional hit. Massive Claw attacks can cause critical hits as normal. Massive Claws are unaffected by special orders of any kind. If a bio-ship becomes crippled its Massive Claws may no longer attack.
