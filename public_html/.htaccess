@@ -1,5 +1,5 @@
-RedirectMatch /pdfs/netea-tournament-pack.pdf /pdfs/netea-tournament-pack.pdf
 RedirectMatch /pdfs/netea-faq.pdf /pdfs/netea-faq.pdf
+RedirectMatch /pdfs/netea-tournament-pack.pdf /pdfs/netea-tournament-pack.pdf
 RedirectMatch /pdfs/bfg-chaos-berzerker-fleet.pdf /pdfs/bfg-chaos-berzerker-fleet.pdf
 RedirectMatch /pdfs/bfg-chaos-black-crusade.pdf /pdfs/bfg-chaos-black-crusade.pdf
 RedirectMatch /pdfs/bfg-chaos-incursion.pdf /pdfs/bfg-chaos-incursion.pdf

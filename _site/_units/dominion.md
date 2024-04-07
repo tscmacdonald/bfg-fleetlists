@@ -17,7 +17,7 @@ weapons:
   -
     id: Slance-45-2
   -
-    id: dorsal-battery-60-2
+    id: dorsal-lance-60-2
   -
     id: prow-torps-6
 notes:
